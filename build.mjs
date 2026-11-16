@@ -262,9 +262,12 @@ const home = () => layout({
   </div>
 </section>
 
-<section id="routes" style="padding-left:0;padding-right:0">
-  <div class="wrap title" data-k="Routes"><h2>Popular trips from ${esc(CITY)}</h2><p>Going somewhere else? Ask and we will quote it.</p></div>
-  <div class="rail-wrap">
+<section id="routes">
+  <div class="wrap">
+    <div class="routes-head">
+      <div class="title" data-k="Routes"><h2>Popular trips from ${esc(CITY)}</h2><p>Going somewhere else? Ask and we will quote it.</p></div>
+      <div class="rail-nav"><button type="button" data-rail="routeRail" data-dir="-1" aria-label="Previous routes">${icon("i-left")}</button><button type="button" data-rail="routeRail" data-dir="1" aria-label="More routes">${icon("i-right")}</button></div>
+    </div>
     <div class="rail auto" id="routeRail">${routes.map((r, i) => `
       <article class="dest">
         <div class="dest-top"><span class="dest-from">From ${esc(CITY)}</span><span class="dest-km">${r.km} km</span></div>
@@ -278,7 +281,6 @@ const home = () => layout({
         </div>
       </article>`).join("")}
     </div>
-    <div class="rail-nav"><button type="button" data-rail="routeRail" data-dir="-1" aria-label="Previous routes">${icon("i-left")}</button><button type="button" data-rail="routeRail" data-dir="1" aria-label="More routes">${icon("i-right")}</button></div>
   </div>
 </section>
 
