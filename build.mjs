@@ -19,7 +19,6 @@ const CITY = cfg.baseCity;
 const placeholderPhone = /0{5}/.test(digits(cfg.phone));
 const warnings = [];
 if (placeholderPhone) warnings.push("phone / whatsapp are still placeholders in site.config.json");
-if (!cfg.address.street) warnings.push("address.street is empty (needed for Google local results)");
 if (!Object.values(cfg.tracking).some(Boolean)) warnings.push("no tracking IDs set: ads conversions will not be recorded");
 
 const routes = cfg.routes.map(r => ({ ...r, slug: r.slug || `${slugify(CITY)}-to-${slugify(r.to)}-taxi` }));
@@ -27,7 +26,6 @@ const L = {
   tel: "tel:" + cfg.phone.replace(/\s/g, ""),
   wa: "https://wa.me/" + digits(cfg.whatsapp),
   mail: "mailto:" + cfg.email,
-  map: "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(cfg.mapQuery),
 };
 
 /* ---------- assets (hashed file names so browsers can cache them for a year) ---------- */
@@ -126,12 +124,12 @@ ${SPRITE}
       <span><b>${esc(cfg.name)}</b><small>${esc(CITY)} · Taxi Service</small></span>
     </a>
     <nav class="nav" aria-label="Main">
-      <a href="/#services">Services</a><a href="/#routes">Routes</a><a href="/#fleet">Fleet</a><a href="/#location">Location</a><a href="#book">Book</a>
+      <a href="/#services">Services</a><a href="/#routes">Routes</a><a href="/#fleet">Fleet</a><a href="#book">Book</a>
     </nav>
     <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="drawer">Menu</button>
   </div>
   <div class="drawer" id="drawer">
-    <a href="/#services">Services</a><a href="/#routes">Routes</a><a href="/#fleet">Fleet</a><a href="/#location">Location</a><a href="#book">Book</a>
+    <a href="/#services">Services</a><a href="/#routes">Routes</a><a href="/#fleet">Fleet</a><a href="#book">Book</a>
     <p class="quick">Quick contact</p>
     <p class="quick">${esc(cfg.phone)}</p>
     <p class="quick">${esc(cfg.email)}</p>
@@ -225,7 +223,6 @@ const home = () => layout({
     <div class="roundlinks">
       <a href="${L.wa}" ${ext} aria-label="WhatsApp">${icon("i-wa")}</a>
       <a href="${L.tel}" aria-label="Call">${icon("i-call")}</a>
-      <a href="#location" aria-label="Location">${icon("i-pin")}</a>
       <a href="${L.mail}" aria-label="Email">${icon("i-mail")}</a>
     </div>
     <div class="contact-cards">
@@ -289,21 +286,7 @@ const home = () => layout({
     </div>
   </div>
 </section>
-${bookSection()}
-<section id="location" style="padding-top:20px">
-  <div class="wrap">
-    <div class="title"><h2>Location</h2></div>
-    <div class="loc">
-      <h3>${icon("i-pin")}Find us</h3>
-      <div class="map">
-        <div class="map-foot">
-          <address>${esc(cfg.address.display)}</address>
-          <a class="btn" href="${L.map}" ${ext}>Get directions</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>`,
+${bookSection()}`,
 });
 
 /* ---------- one landing page per route (these are the ad landing pages) ---------- */

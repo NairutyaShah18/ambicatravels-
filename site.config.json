@@ -5,18 +5,17 @@
   "region": "Gujarat",
   "tagline": "Dependable cars. Courteous drivers.",
 
-  "phone": "+91 00000 00000",
-  "whatsapp": "+91 00000 00000",
+  "phone": "+91 85113 01423",
+  "whatsapp": "+91 85113 01423",
   "email": "bookings@ambicatravels.in",
   "address": {
-    "display": "Your office address, Area, Surat, Gujarat",
-    "street": "",
+    "display": "Jahangirpura, Surat, Gujarat",
+    "street": "Jahangirpura",
     "locality": "Surat",
     "region": "Gujarat",
     "postalCode": ""
   },
   "geo": { "lat": null, "lng": null },
-  "mapQuery": "Ambica Travels Surat",
   "social": { "facebook": "", "instagram": "" },
 
   "tracking": {
