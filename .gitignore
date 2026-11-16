@@ -1,0 +1,5 @@
+dist/
+dist.new/
+dist.old/
+node_modules/
+.DS_Store

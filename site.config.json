@@ -1,0 +1,64 @@
+{
+  "name": "Ambica Travels",
+  "domain": "ambicatravels.in",
+  "baseCity": "Surat",
+  "region": "Gujarat",
+  "tagline": "Dependable cars. Courteous drivers.",
+
+  "phone": "+91 00000 00000",
+  "whatsapp": "+91 00000 00000",
+  "email": "bookings@ambicatravels.in",
+  "address": {
+    "display": "Your office address, Area, Surat, Gujarat",
+    "street": "",
+    "locality": "Surat",
+    "region": "Gujarat",
+    "postalCode": ""
+  },
+  "geo": { "lat": null, "lng": null },
+  "mapQuery": "Ambica Travels Surat",
+  "social": { "facebook": "", "instagram": "" },
+
+  "tracking": {
+    "gtmId": "",
+    "ga4Id": "",
+    "googleAdsId": "",
+    "googleAdsLeadLabel": "",
+    "googleAdsCallLabel": "",
+    "googleAdsWhatsappLabel": "",
+    "metaPixelId": "",
+    "googleSiteVerification": ""
+  },
+
+  "trips": ["One way", "Round trip", "Airport transfer", "Local (hourly)", "Wedding / event"],
+
+  "cabs": [
+    { "name": "Sedan", "seats": "4 passengers", "note": "Dzire, Etios and similar", "tag": "City and highway" },
+    { "name": "Ertiga", "seats": "6 passengers", "note": "Roomy for a small family", "tag": "Family trips" },
+    { "name": "Innova Crysta", "seats": "6 to 7 passengers", "note": "The long-distance favourite", "tag": "Premium comfort" },
+    { "name": "Tempo Traveller", "seats": "12 to 17 passengers", "note": "One vehicle for the whole group", "tag": "Groups and weddings" }
+  ],
+
+  "services": [
+    { "icon": "i-arrow", "name": "One-Way Taxi", "trip": "One way", "text": "Pay for the drop only. A good fit when you are flying back, staying on, or simply do not need the car to wait." },
+    { "icon": "i-loop", "name": "Round Trip", "trip": "Round trip", "text": "Keep the same car and driver for the whole journey, with halts and sightseeing stops along the way." },
+    { "icon": "i-road", "name": "Outstation Taxi", "trip": "One way", "text": "Long highway runs across Gujarat and into Maharashtra, for family visits, pilgrimages and weekend breaks." },
+    { "icon": "i-plane", "name": "Airport Transfer", "trip": "Airport transfer", "text": "Pickups and drops for Surat, Mumbai and Ahmedabad airports, timed to your flight so you are never rushing." },
+    { "icon": "i-ring", "name": "Wedding Car Rental", "trip": "Wedding / event", "text": "Cars for the couple and comfortable transport for guests, from the baraat to the last airport drop." },
+    { "icon": "i-case", "name": "Corporate Travel", "trip": "Local (hourly)", "text": "Client pickups, plant visits and day-long meeting schedules, with monthly billing for regular bookings." },
+    { "icon": "i-city", "name": "Local City Ride", "trip": "Local (hourly)", "text": "Hire a car by the hour for shopping, appointments and errands around Surat." }
+  ],
+
+  "routes": [
+    { "to": "Mumbai Airport", "km": 270, "hours": "4.5 to 5.5 hours", "blurb": "Door-to-terminal drops for domestic and international flights, timed to your check-in.", "fares": {} },
+    { "to": "Ahmedabad", "km": 265, "hours": "4 to 5 hours", "blurb": "A straight expressway run for business days, family visits and airport connections.", "fares": {} },
+    { "to": "Vadodara", "km": 150, "hours": "2.5 to 3 hours", "blurb": "An easy same-day trip up NH 48, one way or there and back.", "fares": {} },
+    { "to": "Statue of Unity", "km": 150, "hours": "3 to 3.5 hours", "blurb": "A day out to Ekta Nagar with the car waiting while you visit.", "fares": {} },
+    { "to": "Saputara", "km": 165, "hours": "3.5 to 4 hours", "blurb": "A hill-station getaway with a driver used to the ghat roads.", "fares": {} },
+    { "to": "Daman", "km": 120, "hours": "2 to 2.5 hours", "blurb": "A short coastal run for a weekend or a day by the sea.", "fares": {} },
+    { "to": "Nashik", "km": 235, "hours": "5 to 6 hours", "blurb": "For Trimbakeshwar, Shirdi connections and family trips into Maharashtra.", "fares": {} },
+    { "to": "Rajkot", "km": 450, "hours": "8 to 9 hours", "blurb": "A long Saurashtra run made comfortable with planned halts.", "fares": {} },
+    { "to": "Vapi", "km": 110, "hours": "2 hours", "blurb": "Quick industrial-belt transfers for meetings and plant visits.", "fares": {} },
+    { "to": "Bharuch", "km": 70, "hours": "1.5 hours", "blurb": "Short hops to Bharuch, Ankleshwar and Dahej.", "fares": {} }
+  ]
+}
