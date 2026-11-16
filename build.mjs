@@ -213,7 +213,7 @@ const home = () => layout({
   <div class="wrap hero-grid">
     <div class="hero-copy">
       <span class="eyebrow">${esc(CITY)} taxi service</span>
-      <h1>Every road,<br>an <em>easy</em> ride.</h1>
+      <h1>Every journey,<br>a <em>better</em> experience.</h1>
       <p>One-way drops, round trips, airport runs and outstation journeys from ${esc(CITY)}. Clean cars, drivers who know the highway, and fares agreed before you set off.</p>
       <div class="hero-cta">
         <a class="btn" href="${L.tel}">${icon("i-call")}Call ${esc(cfg.phone)}</a>
