@@ -7,7 +7,7 @@
 
   "phone": "+91 85113 01423",
   "whatsapp": "+91 85113 01423",
-  "email": "bookings@ambicatravels.in",
+  "email": "shahrakesh1232@gmail.com",
   "address": {
     "display": "Jahangirpura, Surat, Gujarat",
     "street": "Jahangirpura",
@@ -29,13 +29,15 @@
     "googleSiteVerification": ""
   },
 
+  "photoCredits": "",
+
   "trips": ["One way", "Round trip", "Airport transfer", "Local (hourly)", "Wedding / event"],
 
   "cabs": [
-    { "name": "Sedan", "seats": "4 passengers", "note": "Dzire, Etios and similar", "tag": "City and highway" },
-    { "name": "Ertiga", "seats": "6 passengers", "note": "Roomy for a small family", "tag": "Family trips" },
-    { "name": "Innova Crysta", "seats": "6 to 7 passengers", "note": "The long-distance favourite", "tag": "Premium comfort" },
-    { "name": "Tempo Traveller", "seats": "12 to 17 passengers", "note": "One vehicle for the whole group", "tag": "Groups and weddings" }
+    { "name": "Sedan", "seats": "4 passengers", "note": "Dzire, Etios and similar", "tag": "City and highway", "photo": "cars/sedan.jpg" },
+    { "name": "SUV", "seats": "6 passengers", "note": "Ertiga and similar", "tag": "Family trips", "photo": "cars/suv.jpg" },
+    { "name": "Innova Crysta", "seats": "6 to 7 passengers", "note": "The long-distance favourite", "tag": "Premium comfort", "photo": "cars/innova-crysta.jpg" },
+    { "name": "Tempo Traveller", "seats": "12 to 17 passengers", "note": "One vehicle for the whole group", "tag": "Groups and weddings", "photo": "cars/tempo-traveller.jpg" }
   ],
 
   "services": [

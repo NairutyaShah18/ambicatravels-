@@ -98,6 +98,30 @@
   addEventListener("scroll", () => { if (!tick) { tick = true; requestAnimationFrame(onMove); } }, { passive: true });
   addEventListener("resize", onMove); onMove();
 
+
+  /* ---- routes rail: drifts on its own, pauses when touched or hovered, loops forever ---- */
+  const rr = $("#routeRail");
+  if (rr && !reduce) {
+    const originals = [...rr.children];
+    originals.forEach(k => { const c = k.cloneNode(true); c.setAttribute("aria-hidden", "true"); c.querySelectorAll("a,button").forEach(x => x.tabIndex = -1); rr.append(c); });
+    const loop = () => rr.children[originals.length].offsetLeft - originals[0].offsetLeft;
+    let paused = false, onScreen = false, timer, pos = 0, last = 0;
+    const pause = () => { paused = true; clearTimeout(timer); };
+    const resume = (ms = 2200) => { clearTimeout(timer); timer = setTimeout(() => { pos = rr.scrollLeft; paused = false; }, ms); };
+    rr.addEventListener("pointerenter", pause); rr.addEventListener("pointerleave", () => resume(600));
+    rr.addEventListener("touchstart", pause, { passive: true }); rr.addEventListener("touchend", () => resume(), { passive: true });
+    rr.addEventListener("focusin", pause); rr.addEventListener("focusout", () => resume());
+    $$('[data-rail="routeRail"]').forEach(b => b.addEventListener("click", () => { pause(); resume(3000); }));
+    new IntersectionObserver(en => { onScreen = en[0].isIntersecting; }).observe(rr);
+    const step = t => {
+      const dt = Math.min(50, t - last); last = t;
+      if (!paused && onScreen) { pos += dt * 0.045; const L = loop(); if (L > 0 && pos >= L) pos -= L; rr.scrollLeft = pos; }
+      else if (rr.scrollLeft >= loop() && loop() > 0) rr.scrollLeft -= loop();
+      requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+
   /* ---- hero fare card: one WhatsApp message with the trip in it ---- */
   const quick = $("#quick");
   if (quick) {

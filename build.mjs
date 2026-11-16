@@ -41,6 +41,10 @@ const CSS = asset("src/site.css", "css");
 const JS = asset("src/site.js", "js");
 const SPRITE = read("src/sprite.svg");
 if (existsSync(join(ROOT, "src/static"))) cpSync(join(ROOT, "src/static"), OUT, { recursive: true });
+// Photos dropped on the server in ./local-static (not in git) are copied in too.
+if (existsSync(join(ROOT, "local-static"))) cpSync(join(ROOT, "local-static"), OUT, { recursive: true });
+const hasPhoto = p => !!p && existsSync(join(OUT, p));
+const cabArt = c => hasPhoto(c.photo) ? `<img class="cab-photo" src="/${esc(c.photo)}" alt="${esc(c.name)} taxi (${esc(c.note)})" loading="lazy" width="800" height="500">` : car;
 const hasOg = existsSync(join(ROOT, "src/static/og.png"));
 
 /* ---------- small pieces ---------- */
@@ -261,16 +265,16 @@ const home = () => layout({
 <section id="routes" style="padding-left:0;padding-right:0">
   <div class="wrap title" data-k="Routes"><h2>Popular trips from ${esc(CITY)}</h2><p>Going somewhere else? Ask and we will quote it.</p></div>
   <div class="rail-wrap">
-    <div class="rail" id="routeRail">${routes.map(r => `
-      <article class="route ticket">
-        <div class="route-head"><span class="pill">Taxi route</span><h3><a href="/${r.slug}/">${esc(CITY)} to ${esc(r.to)}</a></h3>
-          <div class="leg"><div><small>Pickup</small><b>${esc(CITY)}</b></div><i aria-hidden="true"></i><div><small>Drop</small><b>${esc(r.to)}</b></div></div>
-        </div>
-        <div class="route-body">
-          <div class="lbl"><span>About ${r.km} km</span><span>${esc(r.hours)}</span></div>
-          <ul class="cabs">${cfg.cabs.map(c => `<li>${esc(c.name)}</li>`).join("")}</ul>
-          <button class="btn block" type="button" data-enq-to="${esc(r.to)}">Enquire</button>
-          <a class="route-more" href="/${r.slug}/">${esc(CITY)} to ${esc(r.to)} taxi details</a>
+    <div class="rail auto" id="routeRail">${routes.map((r, i) => `
+      <article class="dest">
+        <div class="dest-top"><span class="dest-from">From ${esc(CITY)}</span><span class="dest-km">${r.km} km</span></div>
+        <h3><a href="/${r.slug}/">${esc(r.to)}</a></h3>
+        <div class="dest-line" aria-hidden="true"><i></i><svg viewBox="0 0 200 78"><use href="#car"/></svg><b>${icon("i-pin")}</b></div>
+        <p class="dest-meta">${icon("i-clock")}${esc(r.hours)} by road</p>
+        <p class="dest-cabs">${cfg.cabs.map(c => esc(c.name)).join(" · ")}</p>
+        <div class="dest-act">
+          <a class="btn wa" href="${L.wa}?text=${encodeURIComponent(`Hi, I need a taxi from ${CITY} to ${r.to}. Please share the fare.`)}" ${ext}>${icon("i-wa")}Get fare</a>
+          <a class="btn ghost" href="/${r.slug}/" aria-label="${esc(CITY)} to ${esc(r.to)} taxi details">Details</a>
         </div>
       </article>`).join("")}
     </div>
@@ -282,8 +286,8 @@ const home = () => layout({
   <div class="wrap">
     <div class="title" data-k="Fleet"><h2>Pick the car that fits</h2><p>By group size and luggage.</p></div>
     <div class="fleet-grid">${cfg.cabs.map(f => `
-      <div class="fleet" data-reveal>${car}<b>${esc(f.name)}</b><span>${esc(f.seats)}</span><span>${esc(f.note)}</span><em>${esc(f.tag)}</em></div>`).join("")}
-    </div>
+      <div class="fleet" data-reveal>${cabArt(f)}<b>${esc(f.name)}</b><span>${esc(f.seats)}</span><span>${esc(f.note)}</span><em>${esc(f.tag)}</em></div>`).join("")}
+    </div>${cfg.photoCredits ? `\n    <p class="credits">${esc(cfg.photoCredits)}</p>` : ""}
   </div>
 </section>
 
@@ -352,7 +356,7 @@ const routePage = r => {
   <div class="wrap">
     <div class="title"><h2>Cars for ${esc(name)}</h2><p>Pick a car and we will send you the fare for your date.</p></div>
     <div class="cabrows">${cfg.cabs.map(c => `
-      <div class="cabrow">${car}<div><b>${esc(c.name)}</b><span>${esc(c.seats)} · ${esc(c.note)}</span></div>
+      <div class="cabrow">${cabArt(c)}<div><b>${esc(c.name)}</b><span>${esc(c.seats)} · ${esc(c.note)}</span></div>
         <div class="act"><span class="fare">${r.fares && r.fares[c.name] ? esc(r.fares[c.name]) : ""}</span> <button class="btn ghost" type="button" data-enq-to="${esc(r.to)}" data-enq-cab="${esc(c.name)}">Get fare</button></div>
       </div>`).join("")}
     </div>

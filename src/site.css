@@ -401,3 +401,34 @@ footer nav a{color:var(--muted);text-decoration:none}footer nav a:hover{color:va
 .hero .quick-more{color:var(--muted);max-width:none;font-size:13px}
 .title{max-width:none}.title h2,.title p{max-width:640px}
 .wrap.title{max-width:var(--wrap)}
+
+/* ---------- routes: destination cards on a self-moving rail ---------- */
+.rail.auto{scroll-snap-type:none;gap:22px;padding-top:14px}
+.rail.auto > *{flex:0 0 min(312px,80vw)}
+.dest{position:relative;background:#fff;border:1px solid var(--line);border-radius:26px;padding:24px 24px 22px;display:flex;flex-direction:column;gap:14px;overflow:hidden;transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s,border-color .35s}
+.dest::before{content:"";position:absolute;inset:0 0 auto 0;height:6px;background:linear-gradient(90deg,var(--saffron),var(--marigold));transform:scaleX(.18);transform-origin:left;transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.dest:hover,.dest:focus-within{transform:translateY(-8px);box-shadow:0 28px 50px -28px rgba(22,18,42,.45);border-color:var(--tint-line)}
+.dest:hover::before,.dest:focus-within::before{transform:scaleX(1)}
+.dest-top{display:flex;justify-content:space-between;align-items:center;margin-top:6px}
+.dest-from{font:500 10.5px/1 var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.dest-km{font:600 12.5px/1 var(--body);color:var(--saffron-deep);background:var(--tint);border:1px solid var(--tint-line);padding:7px 11px;border-radius:999px;font-variant-numeric:tabular-nums}
+.dest h3{font-size:31px;line-height:1.1;min-height:2.2em;display:flex;align-items:flex-end}
+.dest h3 a{color:inherit;text-decoration:none}
+.dest h3 a::after{content:"";position:absolute;inset:0 0 96px 0}
+.dest-line{position:relative;height:30px;display:flex;align-items:center}
+.dest-line i{flex:1;height:2px;margin-right:26px;background:repeating-linear-gradient(90deg,var(--tint-line) 0 7px,transparent 7px 12px)}
+.dest-line svg:not(b svg){position:absolute;left:0;bottom:6px;width:46px;color:var(--ink);transition:left .9s cubic-bezier(.3,.7,.2,1)}
+.dest:hover .dest-line svg:not(b svg),.dest:focus-within .dest-line svg:not(b svg){left:calc(100% - 82px)}
+.dest-line b{position:absolute;right:0;top:0;color:var(--saffron)}.dest-line b svg{width:24px;height:24px;display:block}
+.dest-meta{display:flex;align-items:center;gap:8px;font-weight:500;color:var(--ink);font-size:15px}
+.dest-meta svg{width:18px;height:18px;color:var(--saffron)}
+.dest-cabs{font-size:13.5px;color:var(--muted);line-height:1.5}
+.dest-act{position:relative;display:grid;grid-template-columns:1.25fr 1fr;gap:10px;margin-top:auto;padding-top:6px}
+.dest-act .btn{padding:14px 10px;border-radius:14px;font-size:13.5px}
+
+/* ---------- fleet photos ---------- */
+.cab-photo{display:block;width:100%;aspect-ratio:16/10;height:auto;object-fit:cover;border-radius:12px;margin-bottom:10px;background:#fff}
+.fleet:hover .cab-photo{transform:none}
+.cabrow .cab-photo{width:110px;margin:0;border-radius:10px}
+.credits{margin-top:16px;font-size:12px;color:var(--muted)}
+@media (max-width:560px){.cabrow .cab-photo{width:76px}}
