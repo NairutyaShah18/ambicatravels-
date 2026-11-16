@@ -284,3 +284,120 @@ footer nav a{color:var(--muted);text-decoration:none}footer nav a:hover{color:va
 
 @media (max-width:920px){.facts{grid-template-columns:1fr 1fr}.facts div:nth-child(2){border-right:0}.facts div:nth-child(-n+2){border-bottom:1px solid var(--tint-line)}}
 @media (max-width:560px){.cabrow{grid-template-columns:76px 1fr}.cabrow .car{width:76px}.cabrow .act{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center}}
+
+/* =====================================================================
+   v2 look: split hero with fare card, destination ticker, numbered
+   service list, ticket-style route cards, scroll motion.
+   ===================================================================== */
+.logo{height:52px;width:auto;display:block}
+.foot-logo .logo{height:64px;margin-bottom:14px}
+.foot-logo{display:block;width:100%}
+.nav{align-items:center}
+.nav .nav-cta{background:var(--saffron);color:#fff;padding:12px 20px;border-radius:999px;border:0}
+.nav .nav-cta:hover{background:var(--saffron-deep);border:0}
+
+/* scroll progress: a car driving along the top edge */
+.progress{position:fixed;inset:0 0 auto 0;height:3px;z-index:60;pointer-events:none}
+.progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--saffron),var(--marigold));position:relative}
+.progress svg{position:absolute;right:-4px;top:1px;width:30px;color:var(--marigold);filter:drop-shadow(0 2px 4px rgba(0,0,0,.4))}
+
+/* titles: left aligned with a small label */
+.title{text-align:left;margin-bottom:40px;max-width:640px}
+.title h2::after{display:none}
+.title p{margin:14px 0 0}
+.title[data-k]::before{content:attr(data-k);display:inline-flex;font:500 11px/1 var(--body);letter-spacing:.3em;text-transform:uppercase;color:var(--saffron-deep);margin-bottom:16px;padding-left:44px;background:linear-gradient(var(--saffron),var(--saffron)) left center/32px 2px no-repeat}
+.why .title[data-k]::before{color:var(--marigold);background-image:linear-gradient(var(--marigold),var(--marigold))}
+
+/* hero */
+.hero.split::after{background:linear-gradient(100deg,rgba(22,18,42,.92) 0%,rgba(22,18,42,.55) 55%,rgba(22,18,42,.25) 100%),linear-gradient(to bottom,rgba(22,18,42,.5),rgba(22,18,42,0) 30%,rgba(22,18,42,.7))}
+.hero-grid{display:grid;grid-template-columns:1.25fr .85fr;gap:56px;align-items:center;padding-top:150px;padding-bottom:96px;min-height:680px}
+.hero-copy{display:flex;flex-direction:column;align-items:flex-start;gap:24px;will-change:transform}
+.hero.split .eyebrow::before{display:none}
+.hero.split h1{font-size:clamp(46px,7.2vw,92px)}
+.hero.split .hero-cta{justify-content:flex-start}
+.quick{background:rgba(255,255,255,.97);color:var(--text);border-radius:var(--r-lg);padding:26px;display:grid;grid-template-columns:1fr 1fr;gap:14px;box-shadow:0 40px 80px -30px rgba(0,0,0,.7);transform:rotate(1.2deg);transition:transform .4s}
+.quick:hover,.quick:focus-within{transform:rotate(0)}
+.quick-t{grid-column:1/-1;font:600 20px/1.2 var(--display);color:var(--ink)}
+.quick-leg{grid-column:1/-1;display:grid;grid-template-columns:auto 1fr 1.4fr;gap:14px;align-items:end;padding:16px;border-radius:var(--r-md);background:var(--tint);border:1px dashed var(--tint-line)}
+.quick-leg small{display:block;font:500 9.5px/1 var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
+.quick-leg b{font:600 18px/1.9 var(--body);color:var(--ink)}
+.quick-leg i{height:2px;margin-bottom:17px;background:repeating-linear-gradient(90deg,var(--saffron) 0 6px,transparent 6px 10px)}
+.quick-leg select{padding:9px 10px;font-weight:500;background:#fff}
+.quick .btn{grid-column:1/-1}
+.quick-more{grid-column:1/-1;text-align:center;font-size:13px;color:var(--muted)}
+
+/* ticker */
+.ticker{background:var(--saffron);color:#fff;overflow:hidden;white-space:nowrap;padding:15px 0;font:500 13px/1 var(--body);letter-spacing:.16em;text-transform:uppercase}
+.ticker-in{display:inline-flex;animation:tick 48s linear infinite}
+.ticker span{padding:0 28px}.ticker b{color:var(--ink);font-weight:600;padding:0 6px}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+/* how it works */
+.how{padding-bottom:40px}
+.steps{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:36px;padding-top:26px}
+.steps-line{position:absolute;left:0;right:0;top:48px;height:2px;background:repeating-linear-gradient(90deg,var(--tint-line) 0 8px,transparent 8px 14px)}
+.steps-line i{display:block;height:100%;width:100%;background:var(--saffron);transform-origin:left;transform:scaleX(var(--p,1))}
+.step{position:relative}
+.step span{display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--ink);color:var(--marigold);font:600 18px/1 var(--display);box-shadow:0 0 0 8px var(--paper);margin-bottom:22px}
+.step h3{font:600 20px/1.25 var(--body);margin-bottom:8px}
+.step p{color:var(--muted);font-size:15px;max-width:30ch}
+
+/* services as a numbered list beside a sticky heading */
+.svc-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:start}
+.svc-side{position:sticky;top:110px}
+.svc-list{border-top:1px solid var(--line)}
+.srow{display:grid;grid-template-columns:auto 52px 1fr auto;gap:20px;align-items:center;padding:24px 8px;border-bottom:1px solid var(--line);transition:background .25s,padding .25s}
+.srow:hover{background:var(--tint);padding-left:20px;padding-right:20px}
+.srow .num{font:500 13px/1 var(--body);color:var(--muted);font-variant-numeric:tabular-nums}
+.srow .sicon{width:52px;height:52px;border-radius:14px;background:var(--ink);color:var(--marigold);display:grid;place-items:center;transition:transform .3s,background .3s}
+.srow:hover .sicon{background:var(--saffron);color:#fff;transform:rotate(-6deg) scale(1.06)}
+.srow .sicon svg{width:24px;height:24px}
+.srow h3{font:600 19px/1.25 var(--body)}
+.srow p{font-size:14.5px;color:var(--muted);margin-top:4px;max-width:46ch}
+.srow .btn{padding:11px 20px;font-size:13px}
+
+/* route cards as tickets */
+.ticket{border-radius:22px;transition:transform .3s,box-shadow .3s}
+.ticket:hover{transform:translateY(-6px) rotate(-.6deg)}
+.ticket .route-head{background:var(--ink);padding:22px 22px 24px}
+.ticket .route-head h3{min-height:2.4em;font-size:23px;margin-top:14px}
+.ticket .leg{margin:16px 0 0;background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.14);box-shadow:none}
+.ticket .leg small{color:rgba(255,255,255,.6)}.ticket .leg b{color:#fff}
+.ticket .leg i::after{background:var(--marigold)}
+.ticket .route-body{position:relative;border-top:2px dashed var(--tint-line);padding-top:22px}
+.ticket .route-body::before,.ticket .route-body::after{content:"";position:absolute;top:-13px;width:24px;height:24px;border-radius:50%;background:var(--paper);border:1px solid var(--tint-line)}
+.ticket .route-body::before{left:-13px}.ticket .route-body::after{right:-13px}
+.ticket .lbl span:last-child{color:var(--muted)}
+
+.fleet{transition:transform .3s,box-shadow .3s}
+.fleet:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+.fleet .car{transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.fleet:hover .car{transform:translateX(10px)}
+
+/* scroll reveal: only hides things once the script is running */
+.js [data-reveal]{opacity:0;transform:translateY(30px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.js [data-reveal].in{opacity:1;transform:none}
+
+@media (max-width:920px){
+  .hero-grid{grid-template-columns:1fr;gap:36px;padding-top:124px;padding-bottom:64px;min-height:0}
+  .quick{transform:none}
+  .svc-grid{grid-template-columns:1fr;gap:8px}.svc-side{position:static}
+  .steps{grid-template-columns:1fr;gap:28px}.steps-line{left:22px;right:auto;top:26px;bottom:60px;width:2px;height:auto;background:repeating-linear-gradient(180deg,var(--tint-line) 0 8px,transparent 8px 14px)}
+  .steps-line i{transform-origin:top;transform:scaleY(var(--p,1))}
+  .step{padding-left:70px}.step span{position:absolute;left:0;top:0}
+}
+@media (max-width:560px){
+  .logo{height:44px}
+  .srow{grid-template-columns:44px 1fr;gap:14px}.srow .num{display:none}.srow .sicon{width:44px;height:44px}
+  .srow .btn{grid-column:2;justify-self:start}
+  .quick{grid-template-columns:1fr;padding:20px}.quick-leg{grid-template-columns:auto 1fr;}.quick-leg i{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  .ticker-in{animation:none}
+  .js [data-reveal]{opacity:1;transform:none}
+  .quick{transform:none}
+}
+.hero .quick-t{color:var(--ink);max-width:none}
+.hero .quick-more{color:var(--muted);max-width:none;font-size:13px}
+.title{max-width:none}.title h2,.title p{max-width:640px}
+.wrap.title{max-width:var(--wrap)}

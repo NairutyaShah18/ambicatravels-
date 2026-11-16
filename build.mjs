@@ -48,6 +48,11 @@ const icon = id => `<svg aria-hidden="true"><use href="#${id}"/></svg>`;
 const car = `<svg class="car" viewBox="0 0 200 78" aria-hidden="true"><use href="#car"/></svg>`;
 const ext = `target="_blank" rel="noopener"`;
 
+
+/* Logo C: route wordmark. Colours are passed in so it works on dark and light. */
+const logo = ({ c1 = "#FFFFFF", c2 = "#F6B23C", line = "#E2620E", pin = "#F6B23C", hole = "#16122A", cls = "logo" } = {}) => `<svg class="${cls}" viewBox="20 14 460 196" role="img" aria-label="${esc(cfg.name)}"><text x="250" y="112" text-anchor="middle" font-family="'Playfair Display',Georgia,serif" font-style="italic" font-weight="600" font-size="118" fill="${c1}">Ambica</text><path class="logo-line" d="M46 150c120 26 250 26 372-6" fill="none" stroke="${line}" stroke-width="5" stroke-linecap="round"/><circle cx="46" cy="150" r="8" fill="${c1}"/><path d="M430 104a17 17 0 0 0-17 17c0 13 17 30 17 30s17-17 17-30a17 17 0 0 0-17-17Z" fill="${pin}"/><circle cx="430" cy="121" r="6" fill="${hole}"/><text x="250" y="200" text-anchor="middle" font-family="'Outfit',system-ui,sans-serif" font-weight="500" font-size="32" letter-spacing="14" fill="${c2}">TRAVELS</text></svg>`;
+const num = i => String(i + 1).padStart(2, "0");
+
 const tracking = () => {
   const t = cfg.tracking, out = [];
   if (t.googleSiteVerification) out.push(`<meta name="google-site-verification" content="${esc(t.googleSiteVerification)}">`);
@@ -117,14 +122,12 @@ ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify({ "@conte
 <body>
 ${cfg.tracking.gtmId ? `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${esc(cfg.tracking.gtmId)}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>` : ""}
 ${SPRITE}
+<div class="progress" aria-hidden="true"><i id="prog"><svg viewBox="0 0 200 78"><use href="#car"/></svg></i></div>
 <header class="site-head" id="top">
   <div class="wrap head-row">
-    <a class="brand" href="/" aria-label="${esc(cfg.name)} home">
-      <svg class="mark" aria-hidden="true"><use href="#mark"/></svg>
-      <span><b>${esc(cfg.name)}</b><small>${esc(CITY)} · Taxi Service</small></span>
-    </a>
+    <a class="brand" href="/" aria-label="${esc(cfg.name)} home">${logo()}</a>
     <nav class="nav" aria-label="Main">
-      <a href="/#services">Services</a><a href="/#routes">Routes</a><a href="/#fleet">Fleet</a><a href="#book">Book</a>
+      <a href="/#services">Services</a><a href="/#routes">Routes</a><a href="/#fleet">Fleet</a><a class="nav-cta" href="#book">Book a ride</a>
     </nav>
     <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="drawer">Menu</button>
   </div>
@@ -140,6 +143,7 @@ ${body}
 </main>
 <footer>
   <div class="wrap">
+    <a href="/" class="foot-logo" aria-label="${esc(cfg.name)} home">${logo({ c1: "#16122A", c2: "#B4470A", pin: "#E2620E", hole: "#FFFFFF" })}</a>
     <nav aria-label="Taxi routes">${routes.map(r => `<a href="/${r.slug}/">${esc(CITY)} to ${esc(r.to)} taxi</a>`).join("")}</nav>
     <span>© ${new Date().getFullYear()} <b>${esc(cfg.name)}</b>. All rights reserved.</span><span>${esc(cfg.address.display)} · ${esc(cfg.phone)}</span>
   </div>
@@ -200,62 +204,70 @@ const home = () => layout({
   path: "/",
   jsonld: [business(), { "@type": "WebSite", "@id": ORIGIN + "/#website", url: ORIGIN + "/", name: cfg.name }],
   body: `
-<section class="hero" style="padding:0">
+<section class="hero split" style="padding:0">
   <canvas id="road" aria-hidden="true"></canvas>
-  <div class="hero-in">
-    <span class="eyebrow">${esc(cfg.name)}</span>
-    <h1>Every road,<br>an <em>easy</em> ride.</h1>
-    <p>One-way drops, round trips, airport runs and outstation journeys from ${esc(CITY)}. Clean cars, drivers who know the highway, and fares agreed before you set off.</p>
-    <div class="hero-cta">
-      <a class="btn" href="#book">Book your ride</a>
-      <a class="btn light" href="${L.wa}" ${ext}>${icon("i-wa")}WhatsApp us</a>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">${esc(CITY)} taxi service</span>
+      <h1>Every road,<br>an <em>easy</em> ride.</h1>
+      <p>One-way drops, round trips, airport runs and outstation journeys from ${esc(CITY)}. Clean cars, drivers who know the highway, and fares agreed before you set off.</p>
+      <div class="hero-cta">
+        <a class="btn" href="${L.tel}">${icon("i-call")}Call ${esc(cfg.phone)}</a>
+        <a class="btn light" href="${L.wa}" ${ext}>${icon("i-wa")}WhatsApp us</a>
+      </div>
     </div>
+    <form class="quick" id="quick" aria-label="Quick fare request">
+      <p class="quick-t">Get a fare in one message</p>
+      <div class="quick-leg"><span><small>From</small><b>${esc(CITY)}</b></span><i aria-hidden="true"></i><span><small>To</small>
+        <select id="q-to" aria-label="Drop city">${routes.map(r => `<option>${esc(r.to)}</option>`).join("")}<option value="">Somewhere else</option></select></span></div>
+      <div class="f"><label for="q-cab">Car</label><select id="q-cab">${cfg.cabs.map(c => `<option>${esc(c.name)}</option>`).join("")}</select></div>
+      <div class="f"><label for="q-date">Travel date</label><input id="q-date" type="date"></div>
+      <a class="btn wa block" id="q-send" href="${L.wa}" ${ext}>${icon("i-wa")}Ask fare on WhatsApp</a>
+      <a class="quick-more" href="#book">or fill in the full booking form</a>
+    </form>
   </div>
-  <div class="wrap hero-foot"><span>${esc(CITY)}, ${esc(cfg.region)}</span><span>One way · Round trip · Outstation</span></div>
 </section>
 
-<section class="intro">
+<div class="ticker" aria-hidden="true"><div class="ticker-in">${[0, 1].map(() => routes.map(r => `<span>${esc(CITY)} <b>→</b> ${esc(r.to)}</span>`).join("")).join("")}</div></div>
+
+<section class="how">
   <div class="wrap">
-    <svg class="mark" aria-hidden="true"><use href="#mark"/></svg>
-    <h2>${esc(cfg.name)}</h2>
-    <p class="tagline">${esc(cfg.tagline)}</p>
-    <p class="lede">From a quick ride across the city to a long highway run, we plan the trip around your timing and get you there rested. You sit back; we mind the road.</p>
-    <div class="roundlinks">
-      <a href="${L.wa}" ${ext} aria-label="WhatsApp">${icon("i-wa")}</a>
-      <a href="${L.tel}" aria-label="Call">${icon("i-call")}</a>
-      <a href="${L.mail}" aria-label="Email">${icon("i-mail")}</a>
-    </div>
-    <div class="contact-cards">
-      <a class="ccard" href="${L.tel}">${icon("i-call")}<b>Call</b><span>${esc(cfg.phone)}</span></a>
-      <a class="ccard" href="${L.wa}" ${ext}>${icon("i-wa")}<b>WhatsApp</b><span>${esc(cfg.whatsapp)}</span></a>
-      <a class="ccard" href="${L.mail}">${icon("i-mail")}<b>Email</b><span>${esc(cfg.email)}</span></a>
+    <div class="title" data-k="How it works"><h2>Booked in three steps</h2></div>
+    <div class="steps" id="steps">
+      <div class="steps-line" aria-hidden="true"><i id="stepsFill"></i></div>
+      <div class="step" data-reveal><span>1</span><h3>Tell us the trip</h3><p>Pickup, drop, date and the car you want. A WhatsApp message or a call is enough.</p></div>
+      <div class="step" data-reveal><span>2</span><h3>Get the fare</h3><p>We send the full fare for your date and say what it includes.</p></div>
+      <div class="step" data-reveal><span>3</span><h3>Ride</h3><p>Your driver arrives before the pickup time. You settle up as agreed.</p></div>
     </div>
   </div>
 </section>
 
-<section id="services" style="padding-left:0;padding-right:0">
-  <div class="wrap title"><h2>Our Services</h2><p>Pick the kind of trip. Tap Enquire and the booking form fills itself in.</p></div>
-  <div class="rail-wrap">
-    <div class="rail" id="svcRail">${cfg.services.map(s => `
-      <article class="svc">
-        <div class="svc-art"><span class="glow"></span><span class="badge">${icon(s.icon)}</span>${car}</div>
-        <h3>${esc(s.name)}</h3><p>${esc(s.text)}</p>
-        <button class="btn ghost block" type="button" data-enq-trip="${esc(s.trip)}" data-enq-note="Enquiry: ${esc(s.name)}">Enquire</button>
+<section id="services" class="services">
+  <div class="wrap svc-grid">
+    <div class="svc-side">
+      <div class="title" data-k="Services"><h2>Whatever the trip, there is a car for it</h2><p>Tap Enquire on any service and the booking form fills itself in.</p></div>
+    </div>
+    <div class="svc-list">${cfg.services.map((s, i) => `
+      <article class="srow" data-reveal>
+        <span class="num">${num(i)}</span>
+        <span class="sicon">${icon(s.icon)}</span>
+        <div><h3>${esc(s.name)}</h3><p>${esc(s.text)}</p></div>
+        <button class="btn ghost" type="button" data-enq-trip="${esc(s.trip)}" data-enq-note="Enquiry: ${esc(s.name)}">Enquire</button>
       </article>`).join("")}
     </div>
-    <div class="rail-nav"><button type="button" data-rail="svcRail" data-dir="-1" aria-label="Previous services">${icon("i-left")}</button><button type="button" data-rail="svcRail" data-dir="1" aria-label="More services">${icon("i-right")}</button></div>
   </div>
 </section>
 
-<section id="routes" style="padding-top:20px;padding-left:0;padding-right:0">
-  <div class="wrap title"><h2>Taxi Routes</h2><p>Popular trips from ${esc(CITY)}. Going somewhere else? Ask and we will quote it.</p></div>
+<section id="routes" style="padding-left:0;padding-right:0">
+  <div class="wrap title" data-k="Routes"><h2>Popular trips from ${esc(CITY)}</h2><p>Going somewhere else? Ask and we will quote it.</p></div>
   <div class="rail-wrap">
     <div class="rail" id="routeRail">${routes.map(r => `
-      <article class="route">
-        <div class="route-head"><span class="pill">Popular taxi route</span><h3><a href="/${r.slug}/">${esc(CITY)} to ${esc(r.to)}</a></h3></div>
-        <div class="leg"><div><small>Pickup city</small><b>${esc(CITY)}</b></div><i aria-hidden="true"></i><div><small>Drop city</small><b>${esc(r.to)}</b></div></div>
+      <article class="route ticket">
+        <div class="route-head"><span class="pill">Taxi route</span><h3><a href="/${r.slug}/">${esc(CITY)} to ${esc(r.to)}</a></h3>
+          <div class="leg"><div><small>Pickup</small><b>${esc(CITY)}</b></div><i aria-hidden="true"></i><div><small>Drop</small><b>${esc(r.to)}</b></div></div>
+        </div>
         <div class="route-body">
-          <div class="lbl"><span>Choose your cab</span><span>About ${r.km} km</span></div>
+          <div class="lbl"><span>About ${r.km} km</span><span>${esc(r.hours)}</span></div>
           <ul class="cabs">${cfg.cabs.map(c => `<li>${esc(c.name)}</li>`).join("")}</ul>
           <button class="btn block" type="button" data-enq-to="${esc(r.to)}">Enquire</button>
           <a class="route-more" href="/${r.slug}/">${esc(CITY)} to ${esc(r.to)} taxi details</a>
@@ -266,23 +278,23 @@ const home = () => layout({
   </div>
 </section>
 
-<section id="fleet" style="padding-top:20px">
+<section id="fleet">
   <div class="wrap">
-    <div class="title"><h2>Our Fleet</h2><p>Choose the car that fits your group and your luggage.</p></div>
+    <div class="title" data-k="Fleet"><h2>Pick the car that fits</h2><p>By group size and luggage.</p></div>
     <div class="fleet-grid">${cfg.cabs.map(f => `
-      <div class="fleet">${car}<b>${esc(f.name)}</b><span>${esc(f.seats)}</span><span>${esc(f.note)}</span><em>${esc(f.tag)}</em></div>`).join("")}
+      <div class="fleet" data-reveal>${car}<b>${esc(f.name)}</b><span>${esc(f.seats)}</span><span>${esc(f.note)}</span><em>${esc(f.tag)}</em></div>`).join("")}
     </div>
   </div>
 </section>
 
 <section class="why">
   <div class="wrap">
-    <div class="title"><h2>Why ride with Ambica</h2><p>What you can count on, every trip.</p></div>
+    <div class="title" data-k="Why Ambica"><h2>What you can count on, every trip</h2></div>
     <div class="why-grid">
-      <div>${icon("i-clock")}<b>On time</b><p>Your driver reaches the pickup point before the agreed time.</p></div>
-      <div>${icon("i-rupee")}<b>Fare fixed first</b><p>You get the full fare before the trip starts. Tolls and extras are spelled out.</p></div>
-      <div>${icon("i-spark")}<b>Clean cars</b><p>Every car is cleaned and checked before it leaves for your pickup.</p></div>
-      <div>${icon("i-shield")}<b>Seasoned drivers</b><p>Drivers who know Gujarat and Maharashtra highways and drive them safely.</p></div>
+      <div data-reveal>${icon("i-clock")}<b>On time</b><p>Your driver reaches the pickup point before the agreed time.</p></div>
+      <div data-reveal>${icon("i-rupee")}<b>Fare fixed first</b><p>You get the full fare before the trip starts. Tolls and extras are spelled out.</p></div>
+      <div data-reveal>${icon("i-spark")}<b>Clean cars</b><p>Every car is cleaned and checked before it leaves for your pickup.</p></div>
+      <div data-reveal>${icon("i-shield")}<b>Seasoned drivers</b><p>Drivers who know Gujarat and Maharashtra highways and drive them safely.</p></div>
     </div>
   </div>
 </section>

@@ -73,6 +73,43 @@
   menuBtn.addEventListener("click", () => setMenu(!drawer.classList.contains("open")));
   drawer.addEventListener("click", e => { if (e.target.tagName === "A") setMenu(false); });
 
+
+  /* ---- scroll motion: progress car, reveals, step line, hero drift ---- */
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const prog = $("#prog"), stepsEl = $("#steps"), fill = $("#stepsFill"), copy = $(".hero-copy");
+  if (!reduce) {
+    document.documentElement.classList.add("js");
+    const els = $$("[data-reveal]");
+    els.forEach(el => { const sibs = [...el.parentElement.children].filter(c => c.hasAttribute("data-reveal")); el.style.setProperty("--d", (sibs.indexOf(el) % 6) * 0.09 + "s"); });
+    if ("IntersectionObserver" in window) {
+      const io = new IntersectionObserver(en => en.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { threshold: 0.15, rootMargin: "0px 0px -6% 0px" });
+      els.forEach(el => io.observe(el));
+    } else els.forEach(el => el.classList.add("in"));
+  }
+  let tick = false;
+  const onMove = () => {
+    tick = false;
+    const max = document.documentElement.scrollHeight - innerHeight;
+    if (prog) prog.style.width = (max > 0 ? Math.min(100, scrollY / max * 100) : 0) + "%";
+    if (reduce) return;
+    if (stepsEl && fill) { const r = stepsEl.getBoundingClientRect(); fill.style.setProperty("--p", Math.max(0, Math.min(1, (innerHeight * 0.85 - r.top) / (r.height + innerHeight * 0.25)))); }
+    if (copy && scrollY < 900) { copy.style.transform = `translateY(${scrollY * 0.18}px)`; copy.style.opacity = Math.max(0, 1 - scrollY / 620); }
+  };
+  addEventListener("scroll", () => { if (!tick) { tick = true; requestAnimationFrame(onMove); } }, { passive: true });
+  addEventListener("resize", onMove); onMove();
+
+  /* ---- hero fare card: one WhatsApp message with the trip in it ---- */
+  const quick = $("#quick");
+  if (quick) {
+    const send = $("#q-send");
+    const build = () => {
+      const to = $("#q-to").value, d = $("#q-date").value;
+      const text = `Hi ${S.name}, please share the fare.\nTrip: ${S.city} to ${to || "(I will tell you)"}\nCar: ${$("#q-cab").value}` + (d ? `\nDate: ${d}` : "");
+      send.href = "https://wa.me/" + S.wa + "?text=" + encodeURIComponent(text);
+    };
+    quick.addEventListener("input", build); quick.addEventListener("submit", e => e.preventDefault()); build();
+  }
+
   /* ---- hero: night highway drawn on canvas (no video or photo to download) ---- */
   const c = $("#road");
   if (c) {
