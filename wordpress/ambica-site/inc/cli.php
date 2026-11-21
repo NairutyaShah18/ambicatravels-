@@ -96,6 +96,30 @@ class Amb_CLI {
 		WP_CLI::success( 'Pages ready.' );
 	}
 
+	/**
+	 * Fill Rank Math's local business details from Settings → Ambica Travels and stop pages being marked as articles.
+	 */
+	public function seo() {
+		$o = get_option( 'rank-math-options-titles', [] );
+		$o = is_array( $o ) ? $o : [];
+		$o['knowledgegraph_type']           = 'company';
+		$o['knowledgegraph_name']           = amb_s( 'name' );
+		$o['website_name']                  = amb_s( 'name' );
+		$o['local_business_type']           = 'TaxiService';
+		$o['pt_page_default_rich_snippet']  = 'off';
+		$o['email']                         = amb_s( 'email' );
+		$o['url']                           = home_url( '/' );
+		$o['local_address']                 = [ 'streetAddress' => 'Jahangirpura', 'addressLocality' => amb_s( 'city' ), 'addressRegion' => amb_s( 'region' ), 'postalCode' => '', 'addressCountry' => 'IN' ];
+		$o['local_address_format']          = '{address} {locality}, {region} {postalcode}';
+		$o['phone_numbers']                 = [ [ 'type' => 'customer support', 'number' => preg_replace( '/\s/', '', amb_s( 'phone' ) ) ] ];
+		$o['opening_hours']                 = array_map( fn( $d ) => [ 'day' => $d, 'time' => '00:00-23:59' ], [ 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday' ] );
+		update_option( 'rank-math-options-titles', $o );
+		foreach ( get_posts( [ 'post_type' => 'page', 'posts_per_page' => -1, 'fields' => 'ids' ] ) as $id ) {
+			update_post_meta( $id, 'rank_math_rich_snippet', 'off' );
+		}
+		WP_CLI::success( 'Rank Math business details set.' );
+	}
+
 	private function menu() {
 		$locations = get_nav_menu_locations();
 		if ( ! empty( $locations['ambica_primary'] ) ) {

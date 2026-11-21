@@ -181,6 +181,7 @@ if [ -z "$ICON_NOW" ] || [ "$ICON_NOW" = "0" ]; then
   rm -f "$WP_DIR/tmp/og.jpg"
 fi
 sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" ambica import
+sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" ambica seo || true
 $WP elementor flush-css >/dev/null 2>&1 || true
 $WP cache flush >/dev/null 2>&1 || true
 
