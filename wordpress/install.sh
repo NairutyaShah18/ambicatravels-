@@ -132,6 +132,7 @@ say "Plugin settings"
 $WP option update elementor_disable_color_schemes yes
 $WP option update elementor_disable_typography_schemes yes
 $WP option update elementor_font_display swap
+$WP option update elementor_google_font 0
 $WP option update elementor_onboarded 1
 $WP option update elementor_cpt_support '["page","post"]' --format=json
 # Rank Math: skip the setup wizard, turn on the modules we use.
