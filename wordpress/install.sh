@@ -124,8 +124,8 @@ for p in elementor seo-by-rank-math wordfence updraftplus cache-enabler duplicat
 done
 bash "$REPO_DIR/wordpress/sync-plugin.sh"
 $WP plugin activate ambica-site
-$WP plugin auto-updates enable --all
-$WP theme auto-updates enable --all
+$WP plugin auto-updates enable --all || true
+$WP theme auto-updates enable --all || true
 
 say "Plugin settings"
 # Elementor: let the Ambica styles set fonts and colours; skip onboarding.
