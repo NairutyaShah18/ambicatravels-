@@ -157,7 +157,8 @@ IMG_JSON="{"
 for f in sedan suv innova-crysta tempo-traveller; do
   src="$REPO_DIR/local-static/cars/$f.jpg"
   [ -f "$src" ] || continue
-  existing=$(sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" option get ambica_car_images --format=json 2>/dev/null | php -r '$j=json_decode(stream_get_contents(STDIN),true); echo $j["'"$f"'"] ?? "";')
+  existing=$(sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" eval 'echo (int) ( get_option( "ambica_car_images", [] )["'"$f"'"] ?? 0 );' 2>/dev/null | tail -1 || true)
+  [ "$existing" = "0" ] && existing=""
   if [ -z "$existing" ]; then
     cp "$src" "$WP_DIR/tmp/$f.jpg"; chown "$WP_USER" "$WP_DIR/tmp/$f.jpg"
     existing=$(sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" media import "$WP_DIR/tmp/$f.jpg" --title="$f taxi" --porcelain)
@@ -167,7 +168,8 @@ for f in sedan suv innova-crysta tempo-traveller; do
 done
 IMG_JSON="${IMG_JSON%,}}"
 $WP option update ambica_car_images "$IMG_JSON" --format=json
-if [ -z "$(sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" option get site_icon 2>/dev/null | grep -v '^0$')" ]; then
+ICON_NOW=$(sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" eval 'echo (int) get_option( "site_icon" );' 2>/dev/null | tail -1 || true)
+if [ -z "$ICON_NOW" ] || [ "$ICON_NOW" = "0" ]; then
   cp "$DOC/wp-content/plugins/ambica-site/assets/icon-512.png" "$WP_DIR/tmp/"; chown "$WP_USER" "$WP_DIR/tmp/icon-512.png"
   ICON=$(sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" media import "$WP_DIR/tmp/icon-512.png" --title="Site icon" --porcelain)
   $WP option update site_icon "$ICON"; rm -f "$WP_DIR/tmp/icon-512.png"
