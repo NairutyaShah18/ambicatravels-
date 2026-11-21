@@ -1,0 +1,6096 @@
+[
+ {
+  "slug": "home",
+  "title": "Home",
+  "front": true,
+  "text": "Ambica Travels: taxi service in Surat for one-way drops, round trips, outstation journeys and airport transfers.",
+  "seo": {
+   "title": "Ambica Travels | Surat Taxi Service: One Way, Round Trip & Airport Cabs",
+   "description": "Ambica Travels is a Surat taxi service for one-way drops, round trips, outstation journeys and airport transfers. Clean cars, experienced drivers. Call or WhatsApp to book.",
+   "focus": "taxi service in surat"
+  },
+  "elementor": [
+   {
+    "id": "6440a81",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "row",
+     "css_classes": "amb-hero amb-hero-home",
+     "flex_direction_tablet": "column",
+     "flex_direction_mobile": "column"
+    },
+    "elements": [
+     {
+      "id": "3465e1b",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-hero-copy"
+      },
+      "elements": [
+       {
+        "id": "ee67ebe",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat taxi service",
+         "header_size": "div",
+         "_css_classes": "amb-eyebrow"
+        },
+        "elements": []
+       },
+       {
+        "id": "7f6f6a5",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Every journey,<br>a <em>better</em> experience.",
+         "header_size": "h1"
+        },
+        "elements": []
+       },
+       {
+        "id": "a6d0233",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>One-way drops, round trips, airport runs and outstation journeys from Surat. Clean cars, drivers who know the highway, and fares agreed before you set off.</p>",
+         "_css_classes": "amb-lead"
+        },
+        "elements": []
+       },
+       {
+        "id": "8c69565",
+        "elType": "widget",
+        "widgetType": "shortcode",
+        "isInner": false,
+        "settings": {
+         "shortcode": "[ambica_home_buttons]"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "700794b",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-card-col"
+      },
+      "elements": [
+       {
+        "id": "3fb25a1",
+        "elType": "widget",
+        "widgetType": "shortcode",
+        "isInner": false,
+        "settings": {
+         "shortcode": "[ambica_fare_card]"
+        },
+        "elements": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "91a9925",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "column",
+     "css_classes": "amb-ticker-wrap"
+    },
+    "elements": [
+     {
+      "id": "5f9862e",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_ticker]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "b0cb1ff",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-how"
+    },
+    "elements": [
+     {
+      "id": "17b86db",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "1559f27",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "How it works",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "f76ce7d",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Booked in three steps",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "9b31402",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "row",
+       "css_classes": "amb-steps",
+       "flex_direction_tablet": "column",
+       "flex_direction_mobile": "column"
+      },
+      "elements": [
+       {
+        "id": "71fe2f9",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "css_classes": "amb-step",
+         "animation": "fadeInUp"
+        },
+        "elements": [
+         {
+          "id": "ee6bc67",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "1",
+           "header_size": "div",
+           "_css_classes": "amb-step-num"
+          },
+          "elements": []
+         },
+         {
+          "id": "628c770",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "Tell us the trip",
+           "header_size": "h3"
+          },
+          "elements": []
+         },
+         {
+          "id": "45f8ffc",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+           "editor": "<p>Pickup, drop, date and the car you want. A WhatsApp message or a call is enough.</p>"
+          },
+          "elements": []
+         }
+        ]
+       },
+       {
+        "id": "7eb73d1",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "css_classes": "amb-step",
+         "animation": "fadeInUp",
+         "animation_delay": 120
+        },
+        "elements": [
+         {
+          "id": "440dd93",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "2",
+           "header_size": "div",
+           "_css_classes": "amb-step-num"
+          },
+          "elements": []
+         },
+         {
+          "id": "d9903aa",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "Get the fare",
+           "header_size": "h3"
+          },
+          "elements": []
+         },
+         {
+          "id": "cf178ec",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+           "editor": "<p>We send the full fare for your date and say what it includes.</p>"
+          },
+          "elements": []
+         }
+        ]
+       },
+       {
+        "id": "1cfae34",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "css_classes": "amb-step",
+         "animation": "fadeInUp",
+         "animation_delay": 240
+        },
+        "elements": [
+         {
+          "id": "6f52f42",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "3",
+           "header_size": "div",
+           "_css_classes": "amb-step-num"
+          },
+          "elements": []
+         },
+         {
+          "id": "a7908cd",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "Ride",
+           "header_size": "h3"
+          },
+          "elements": []
+         },
+         {
+          "id": "1c72e43",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+           "editor": "<p>Your driver arrives before the pickup time. You settle up as agreed.</p>"
+          },
+          "elements": []
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "d7731af",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "row",
+     "css_classes": "amb-sec amb-services",
+     "flex_direction_tablet": "column",
+     "flex_direction_mobile": "column",
+     "_element_id": "services"
+    },
+    "elements": [
+     {
+      "id": "a8998c4",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-svc-side"
+      },
+      "elements": [
+       {
+        "id": "e9e5169",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "css_classes": "amb-title"
+        },
+        "elements": [
+         {
+          "id": "c129dc5",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "Services",
+           "header_size": "div",
+           "_css_classes": "amb-kicker"
+          },
+          "elements": []
+         },
+         {
+          "id": "51493c5",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "Whatever the trip, there is a car for it",
+           "header_size": "h2"
+          },
+          "elements": []
+         },
+         {
+          "id": "95b23f1",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+           "editor": "<p>Tap Enquire on any service and the booking form fills itself in.</p>"
+          },
+          "elements": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "4b7dfe0",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-svc-list"
+      },
+      "elements": [
+       {
+        "id": "681a6e3",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "row",
+         "css_classes": "amb-srow",
+         "animation": "fadeInUp"
+        },
+        "elements": [
+         {
+          "id": "e2cbfe3",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "01",
+           "header_size": "div",
+           "_css_classes": "amb-num"
+          },
+          "elements": []
+         },
+         {
+          "id": "de6dcf9",
+          "elType": "widget",
+          "widgetType": "shortcode",
+          "isInner": false,
+          "settings": {
+           "shortcode": "[ambica_icon i=\"arrow\"]"
+          },
+          "elements": []
+         },
+         {
+          "id": "08922eb",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+           "content_width": "full",
+           "flex_direction": "column",
+           "css_classes": "amb-srow-text"
+          },
+          "elements": [
+           {
+            "id": "5b8164e",
+            "elType": "widget",
+            "widgetType": "heading",
+            "isInner": false,
+            "settings": {
+             "title": "One-Way Taxi",
+             "header_size": "h3"
+            },
+            "elements": []
+           },
+           {
+            "id": "4e36b50",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "isInner": false,
+            "settings": {
+             "editor": "<p>Pay for the drop only. A good fit when you are flying back, staying on, or simply do not need the car to wait.</p>"
+            },
+            "elements": []
+           }
+          ]
+         },
+         {
+          "id": "766fa00",
+          "elType": "widget",
+          "widgetType": "button",
+          "isInner": false,
+          "settings": {
+           "text": "Enquire",
+           "link": {
+            "url": "#enquire?trip=One%20way&note=One-Way%20Taxi",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           },
+           "_css_classes": "amb-btn amb-btn-ghost"
+          },
+          "elements": []
+         }
+        ]
+       },
+       {
+        "id": "b062a1f",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "row",
+         "css_classes": "amb-srow",
+         "animation": "fadeInUp",
+         "animation_delay": 80
+        },
+        "elements": [
+         {
+          "id": "8042e7c",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "02",
+           "header_size": "div",
+           "_css_classes": "amb-num"
+          },
+          "elements": []
+         },
+         {
+          "id": "2f8b211",
+          "elType": "widget",
+          "widgetType": "shortcode",
+          "isInner": false,
+          "settings": {
+           "shortcode": "[ambica_icon i=\"loop\"]"
+          },
+          "elements": []
+         },
+         {
+          "id": "61ee9e0",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+           "content_width": "full",
+           "flex_direction": "column",
+           "css_classes": "amb-srow-text"
+          },
+          "elements": [
+           {
+            "id": "73a4ca4",
+            "elType": "widget",
+            "widgetType": "heading",
+            "isInner": false,
+            "settings": {
+             "title": "Round Trip",
+             "header_size": "h3"
+            },
+            "elements": []
+           },
+           {
+            "id": "5df9ef6",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "isInner": false,
+            "settings": {
+             "editor": "<p>Keep the same car and driver for the whole journey, with halts and sightseeing stops along the way.</p>"
+            },
+            "elements": []
+           }
+          ]
+         },
+         {
+          "id": "766ab04",
+          "elType": "widget",
+          "widgetType": "button",
+          "isInner": false,
+          "settings": {
+           "text": "Enquire",
+           "link": {
+            "url": "#enquire?trip=Round%20trip&note=Round%20Trip",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           },
+           "_css_classes": "amb-btn amb-btn-ghost"
+          },
+          "elements": []
+         }
+        ]
+       },
+       {
+        "id": "3d9ca8b",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "row",
+         "css_classes": "amb-srow",
+         "animation": "fadeInUp",
+         "animation_delay": 160
+        },
+        "elements": [
+         {
+          "id": "63265d4",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "03",
+           "header_size": "div",
+           "_css_classes": "amb-num"
+          },
+          "elements": []
+         },
+         {
+          "id": "99a5413",
+          "elType": "widget",
+          "widgetType": "shortcode",
+          "isInner": false,
+          "settings": {
+           "shortcode": "[ambica_icon i=\"road\"]"
+          },
+          "elements": []
+         },
+         {
+          "id": "b33cf1f",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+           "content_width": "full",
+           "flex_direction": "column",
+           "css_classes": "amb-srow-text"
+          },
+          "elements": [
+           {
+            "id": "5e8934e",
+            "elType": "widget",
+            "widgetType": "heading",
+            "isInner": false,
+            "settings": {
+             "title": "Outstation Taxi",
+             "header_size": "h3"
+            },
+            "elements": []
+           },
+           {
+            "id": "b7e8b3d",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "isInner": false,
+            "settings": {
+             "editor": "<p>Long highway runs across Gujarat and into Maharashtra, for family visits, pilgrimages and weekend breaks.</p>"
+            },
+            "elements": []
+           }
+          ]
+         },
+         {
+          "id": "c28d7e5",
+          "elType": "widget",
+          "widgetType": "button",
+          "isInner": false,
+          "settings": {
+           "text": "Enquire",
+           "link": {
+            "url": "#enquire?trip=One%20way&note=Outstation%20Taxi",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           },
+           "_css_classes": "amb-btn amb-btn-ghost"
+          },
+          "elements": []
+         }
+        ]
+       },
+       {
+        "id": "d21fe46",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "row",
+         "css_classes": "amb-srow",
+         "animation": "fadeInUp",
+         "animation_delay": 240
+        },
+        "elements": [
+         {
+          "id": "5d5ca35",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "04",
+           "header_size": "div",
+           "_css_classes": "amb-num"
+          },
+          "elements": []
+         },
+         {
+          "id": "4d83f71",
+          "elType": "widget",
+          "widgetType": "shortcode",
+          "isInner": false,
+          "settings": {
+           "shortcode": "[ambica_icon i=\"plane\"]"
+          },
+          "elements": []
+         },
+         {
+          "id": "6989cce",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+           "content_width": "full",
+           "flex_direction": "column",
+           "css_classes": "amb-srow-text"
+          },
+          "elements": [
+           {
+            "id": "63d8c66",
+            "elType": "widget",
+            "widgetType": "heading",
+            "isInner": false,
+            "settings": {
+             "title": "Airport Transfer",
+             "header_size": "h3"
+            },
+            "elements": []
+           },
+           {
+            "id": "b47143f",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "isInner": false,
+            "settings": {
+             "editor": "<p>Pickups and drops for Surat, Mumbai and Ahmedabad airports, timed to your flight so you are never rushing.</p>"
+            },
+            "elements": []
+           }
+          ]
+         },
+         {
+          "id": "72749b0",
+          "elType": "widget",
+          "widgetType": "button",
+          "isInner": false,
+          "settings": {
+           "text": "Enquire",
+           "link": {
+            "url": "#enquire?trip=Airport%20transfer&note=Airport%20Transfer",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           },
+           "_css_classes": "amb-btn amb-btn-ghost"
+          },
+          "elements": []
+         }
+        ]
+       },
+       {
+        "id": "844e625",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "row",
+         "css_classes": "amb-srow",
+         "animation": "fadeInUp"
+        },
+        "elements": [
+         {
+          "id": "481a740",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "05",
+           "header_size": "div",
+           "_css_classes": "amb-num"
+          },
+          "elements": []
+         },
+         {
+          "id": "0150a17",
+          "elType": "widget",
+          "widgetType": "shortcode",
+          "isInner": false,
+          "settings": {
+           "shortcode": "[ambica_icon i=\"ring\"]"
+          },
+          "elements": []
+         },
+         {
+          "id": "e20a3bc",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+           "content_width": "full",
+           "flex_direction": "column",
+           "css_classes": "amb-srow-text"
+          },
+          "elements": [
+           {
+            "id": "70a84e4",
+            "elType": "widget",
+            "widgetType": "heading",
+            "isInner": false,
+            "settings": {
+             "title": "Wedding Car Rental",
+             "header_size": "h3"
+            },
+            "elements": []
+           },
+           {
+            "id": "4e52d30",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "isInner": false,
+            "settings": {
+             "editor": "<p>Cars for the couple and comfortable transport for guests, from the baraat to the last airport drop.</p>"
+            },
+            "elements": []
+           }
+          ]
+         },
+         {
+          "id": "57e1e58",
+          "elType": "widget",
+          "widgetType": "button",
+          "isInner": false,
+          "settings": {
+           "text": "Enquire",
+           "link": {
+            "url": "#enquire?trip=Wedding%20%2F%20event&note=Wedding%20Car%20Rental",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           },
+           "_css_classes": "amb-btn amb-btn-ghost"
+          },
+          "elements": []
+         }
+        ]
+       },
+       {
+        "id": "baaea0b",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "row",
+         "css_classes": "amb-srow",
+         "animation": "fadeInUp",
+         "animation_delay": 80
+        },
+        "elements": [
+         {
+          "id": "ce2d80d",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "06",
+           "header_size": "div",
+           "_css_classes": "amb-num"
+          },
+          "elements": []
+         },
+         {
+          "id": "b2b6e86",
+          "elType": "widget",
+          "widgetType": "shortcode",
+          "isInner": false,
+          "settings": {
+           "shortcode": "[ambica_icon i=\"case\"]"
+          },
+          "elements": []
+         },
+         {
+          "id": "f3722c1",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+           "content_width": "full",
+           "flex_direction": "column",
+           "css_classes": "amb-srow-text"
+          },
+          "elements": [
+           {
+            "id": "71bfb5d",
+            "elType": "widget",
+            "widgetType": "heading",
+            "isInner": false,
+            "settings": {
+             "title": "Corporate Travel",
+             "header_size": "h3"
+            },
+            "elements": []
+           },
+           {
+            "id": "7060079",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "isInner": false,
+            "settings": {
+             "editor": "<p>Client pickups, plant visits and day-long meeting schedules, with monthly billing for regular bookings.</p>"
+            },
+            "elements": []
+           }
+          ]
+         },
+         {
+          "id": "16f42cb",
+          "elType": "widget",
+          "widgetType": "button",
+          "isInner": false,
+          "settings": {
+           "text": "Enquire",
+           "link": {
+            "url": "#enquire?trip=Local%20(hourly)&note=Corporate%20Travel",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           },
+           "_css_classes": "amb-btn amb-btn-ghost"
+          },
+          "elements": []
+         }
+        ]
+       },
+       {
+        "id": "dc48f0b",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "row",
+         "css_classes": "amb-srow",
+         "animation": "fadeInUp",
+         "animation_delay": 160
+        },
+        "elements": [
+         {
+          "id": "dd58e97",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "07",
+           "header_size": "div",
+           "_css_classes": "amb-num"
+          },
+          "elements": []
+         },
+         {
+          "id": "ab582ee",
+          "elType": "widget",
+          "widgetType": "shortcode",
+          "isInner": false,
+          "settings": {
+           "shortcode": "[ambica_icon i=\"city\"]"
+          },
+          "elements": []
+         },
+         {
+          "id": "4f5c56c",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+           "content_width": "full",
+           "flex_direction": "column",
+           "css_classes": "amb-srow-text"
+          },
+          "elements": [
+           {
+            "id": "ff63125",
+            "elType": "widget",
+            "widgetType": "heading",
+            "isInner": false,
+            "settings": {
+             "title": "Local City Ride",
+             "header_size": "h3"
+            },
+            "elements": []
+           },
+           {
+            "id": "29ddf02",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "isInner": false,
+            "settings": {
+             "editor": "<p>Hire a car by the hour for shopping, appointments and errands around Surat.</p>"
+            },
+            "elements": []
+           }
+          ]
+         },
+         {
+          "id": "c2ffdfd",
+          "elType": "widget",
+          "widgetType": "button",
+          "isInner": false,
+          "settings": {
+           "text": "Enquire",
+           "link": {
+            "url": "#enquire?trip=Local%20(hourly)&note=Local%20City%20Ride",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           },
+           "_css_classes": "amb-btn amb-btn-ghost"
+          },
+          "elements": []
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "54ec55e",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-routes-sec",
+     "_element_id": "routes"
+    },
+    "elements": [
+     {
+      "id": "014af07",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "35108fa",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Routes",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "75fcf00",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Popular trips from Surat",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "43b77f9",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Going somewhere else? Ask and we will quote it.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "a04c02e",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_routes]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "34b3168",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-fleet-sec",
+     "_element_id": "fleet"
+    },
+    "elements": [
+     {
+      "id": "b0e2264",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "a18a1ab",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Fleet",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "7940491",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Pick the car that fits",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "322727d",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>By group size and luggage.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "51a3c03",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "row",
+       "css_classes": "amb-fleet-grid",
+       "flex_wrap": "wrap"
+      },
+      "elements": [
+       {
+        "id": "09ebbd3",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "css_classes": "amb-fleet",
+         "animation": "fadeInUp"
+        },
+        "elements": [
+         {
+          "id": "13ac22e",
+          "elType": "widget",
+          "widgetType": "image",
+          "isInner": false,
+          "settings": {
+           "image": {
+            "url": "{{img:sedan}}",
+            "id": "{{imgid:sedan}}",
+            "alt": "Sedan taxi (Dzire, Etios and similar)",
+            "source": "library"
+           },
+           "image_size": "medium_large",
+           "_css_classes": "amb-photo"
+          },
+          "elements": []
+         },
+         {
+          "id": "8fb4c70",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "Sedan",
+           "header_size": "h3"
+          },
+          "elements": []
+         },
+         {
+          "id": "d4a7a37",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+           "editor": "<p>4 passengers<br>Dzire, Etios and similar</p>"
+          },
+          "elements": []
+         },
+         {
+          "id": "e0d4ea1",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "City and highway",
+           "header_size": "div",
+           "_css_classes": "amb-tag"
+          },
+          "elements": []
+         }
+        ]
+       },
+       {
+        "id": "f54de1e",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "css_classes": "amb-fleet",
+         "animation": "fadeInUp",
+         "animation_delay": 100
+        },
+        "elements": [
+         {
+          "id": "13b7753",
+          "elType": "widget",
+          "widgetType": "image",
+          "isInner": false,
+          "settings": {
+           "image": {
+            "url": "{{img:suv}}",
+            "id": "{{imgid:suv}}",
+            "alt": "SUV taxi (Ertiga and similar)",
+            "source": "library"
+           },
+           "image_size": "medium_large",
+           "_css_classes": "amb-photo"
+          },
+          "elements": []
+         },
+         {
+          "id": "5cd86c6",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "SUV",
+           "header_size": "h3"
+          },
+          "elements": []
+         },
+         {
+          "id": "0a9ad90",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+           "editor": "<p>6 passengers<br>Ertiga and similar</p>"
+          },
+          "elements": []
+         },
+         {
+          "id": "0fa3e29",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "Family trips",
+           "header_size": "div",
+           "_css_classes": "amb-tag"
+          },
+          "elements": []
+         }
+        ]
+       },
+       {
+        "id": "cc5667b",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "css_classes": "amb-fleet",
+         "animation": "fadeInUp",
+         "animation_delay": 200
+        },
+        "elements": [
+         {
+          "id": "f397525",
+          "elType": "widget",
+          "widgetType": "image",
+          "isInner": false,
+          "settings": {
+           "image": {
+            "url": "{{img:innova-crysta}}",
+            "id": "{{imgid:innova-crysta}}",
+            "alt": "Innova Crysta taxi (The long-distance favourite)",
+            "source": "library"
+           },
+           "image_size": "medium_large",
+           "_css_classes": "amb-photo"
+          },
+          "elements": []
+         },
+         {
+          "id": "8b9b239",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "Innova Crysta",
+           "header_size": "h3"
+          },
+          "elements": []
+         },
+         {
+          "id": "512b926",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+           "editor": "<p>6 to 7 passengers<br>The long-distance favourite</p>"
+          },
+          "elements": []
+         },
+         {
+          "id": "a15836a",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "Premium comfort",
+           "header_size": "div",
+           "_css_classes": "amb-tag"
+          },
+          "elements": []
+         }
+        ]
+       },
+       {
+        "id": "1fd4d74",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "css_classes": "amb-fleet",
+         "animation": "fadeInUp",
+         "animation_delay": 300
+        },
+        "elements": [
+         {
+          "id": "80b3909",
+          "elType": "widget",
+          "widgetType": "image",
+          "isInner": false,
+          "settings": {
+           "image": {
+            "url": "{{img:tempo-traveller}}",
+            "id": "{{imgid:tempo-traveller}}",
+            "alt": "Tempo Traveller taxi (One vehicle for the whole group)",
+            "source": "library"
+           },
+           "image_size": "medium_large",
+           "_css_classes": "amb-photo"
+          },
+          "elements": []
+         },
+         {
+          "id": "cfb2759",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "Tempo Traveller",
+           "header_size": "h3"
+          },
+          "elements": []
+         },
+         {
+          "id": "d16eb04",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+           "editor": "<p>12 to 17 passengers<br>One vehicle for the whole group</p>"
+          },
+          "elements": []
+         },
+         {
+          "id": "69b424d",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "Groups and weddings",
+           "header_size": "div",
+           "_css_classes": "amb-tag"
+          },
+          "elements": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "32add28",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Car photos from Wikimedia Commons: Dzire by Biswarup Ganguly (CC BY 3.0), Ertiga by Ya Lah Media (CC BY-SA 4.0), Innova Crysta by Premnath Kudva (CC BY-SA 4.0), Force Traveller by OnkelFordTaunus (CC BY-SA 3.0). Photos show the model, not our own vehicles.</p>",
+       "_css_classes": "amb-credits"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "71b4411",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-dark amb-why"
+    },
+    "elements": [
+     {
+      "id": "ec00ab3",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "e0a8c5b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Why Ambica",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "b3ee5f8",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "What you can count on, every trip",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "be9e31f",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "row",
+       "css_classes": "amb-why-grid",
+       "flex_direction_mobile": "column"
+      },
+      "elements": [
+       {
+        "id": "7e5f44c",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "css_classes": "amb-why-card",
+         "animation": "fadeInUp"
+        },
+        "elements": [
+         {
+          "id": "643bc71",
+          "elType": "widget",
+          "widgetType": "shortcode",
+          "isInner": false,
+          "settings": {
+           "shortcode": "[ambica_icon i=\"clock\"]"
+          },
+          "elements": []
+         },
+         {
+          "id": "bd1fd6d",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "On time",
+           "header_size": "h3"
+          },
+          "elements": []
+         },
+         {
+          "id": "c55b345",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+           "editor": "<p>Your driver reaches the pickup point before the agreed time.</p>"
+          },
+          "elements": []
+         }
+        ]
+       },
+       {
+        "id": "24a1c7e",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "css_classes": "amb-why-card",
+         "animation": "fadeInUp",
+         "animation_delay": 100
+        },
+        "elements": [
+         {
+          "id": "ebdc5e1",
+          "elType": "widget",
+          "widgetType": "shortcode",
+          "isInner": false,
+          "settings": {
+           "shortcode": "[ambica_icon i=\"rupee\"]"
+          },
+          "elements": []
+         },
+         {
+          "id": "f9263ed",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "Fare fixed first",
+           "header_size": "h3"
+          },
+          "elements": []
+         },
+         {
+          "id": "b26954a",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+           "editor": "<p>You get the full fare before the trip starts. Tolls and extras are spelled out.</p>"
+          },
+          "elements": []
+         }
+        ]
+       },
+       {
+        "id": "f6be3cb",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "css_classes": "amb-why-card",
+         "animation": "fadeInUp",
+         "animation_delay": 200
+        },
+        "elements": [
+         {
+          "id": "8b6be1f",
+          "elType": "widget",
+          "widgetType": "shortcode",
+          "isInner": false,
+          "settings": {
+           "shortcode": "[ambica_icon i=\"spark\"]"
+          },
+          "elements": []
+         },
+         {
+          "id": "9b3f361",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "Clean cars",
+           "header_size": "h3"
+          },
+          "elements": []
+         },
+         {
+          "id": "9350921",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+           "editor": "<p>Every car is cleaned and checked before it leaves for your pickup.</p>"
+          },
+          "elements": []
+         }
+        ]
+       },
+       {
+        "id": "fda0470",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "column",
+         "css_classes": "amb-why-card",
+         "animation": "fadeInUp",
+         "animation_delay": 300
+        },
+        "elements": [
+         {
+          "id": "e579538",
+          "elType": "widget",
+          "widgetType": "shortcode",
+          "isInner": false,
+          "settings": {
+           "shortcode": "[ambica_icon i=\"shield\"]"
+          },
+          "elements": []
+         },
+         {
+          "id": "2e750bc",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+           "title": "Seasoned drivers",
+           "header_size": "h3"
+          },
+          "elements": []
+         },
+         {
+          "id": "24e26b7",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+           "editor": "<p>Drivers who know Gujarat and Maharashtra highways and drive them safely.</p>"
+          },
+          "elements": []
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "e4d0221",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-book",
+     "_element_id": "book"
+    },
+    "elements": [
+     {
+      "id": "9deea1e",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "4e50b71",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "6347c8b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book a Ride",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "83ef224",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Fill in your trip and send it to us on WhatsApp. We reply with the fare and confirm your car.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "2ef906b",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_booking]"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "surat-to-mumbai-airport-taxi",
+  "title": "Surat to Mumbai Airport Taxi",
+  "text": "Surat to Mumbai Airport taxi: about 270 km, 4.5 to 5.5 hours. Door-to-terminal drops for domestic and international flights, timed to your check-in.",
+  "route": {
+   "to": "Mumbai Airport",
+   "km": 270,
+   "hours": "4.5 to 5.5 hours",
+   "blurb": "Door-to-terminal drops for domestic and international flights, timed to your check-in."
+  },
+  "seo": {
+   "title": "Surat to Mumbai Airport Taxi | One Way & Round Trip Cab | Ambica Travels",
+   "description": "Book a Surat to Mumbai Airport taxi with Ambica Travels. About 270 km, 4.5 to 5.5 hours. Sedan, SUV, Innova Crysta, Tempo Traveller. One way or round trip. Call or WhatsApp for the fare.",
+   "focus": "surat to mumbai airport taxi"
+  },
+  "elementor": [
+   {
+    "id": "355b6be",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-hero amb-hero-sub"
+    },
+    "elements": [
+     {
+      "id": "a5d291d",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p><a href=\"/\">Home</a> / <a href=\"/#routes\">Routes</a> / Surat to Mumbai Airport</p>",
+       "_css_classes": "amb-crumbs"
+      },
+      "elements": []
+     },
+     {
+      "id": "6940dcf",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Ambica Travels",
+       "header_size": "div",
+       "_css_classes": "amb-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "96297c1",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Surat to <em>Mumbai Airport</em> Taxi",
+       "header_size": "h1"
+      },
+      "elements": []
+     },
+     {
+      "id": "8df1ecd",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Door-to-terminal drops for domestic and international flights, timed to your check-in. One way or round trip, with the fare confirmed before you travel.</p>",
+       "_css_classes": "amb-lead"
+      },
+      "elements": []
+     },
+     {
+      "id": "bdb6da6",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_buttons]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "4385a65",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec-tight"
+    },
+    "elements": [
+     {
+      "id": "bd5704d",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_facts]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "fbc77a2",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "f6a1add",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "0009e57",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "449c931",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars for Surat to Mumbai Airport",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "9eab5e7",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Pick a car and we will send you the fare for your date.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "45998b7",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_cars]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "91cf6f2",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-about"
+    },
+    "elements": [
+     {
+      "id": "0b84996",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "111900b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "About this trip",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "6a228eb",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Mumbai Airport by taxi",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "9d5df02",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Ambica Travels runs taxis from Surat to Mumbai Airport on any day of the week, one way or as a round trip. The drive is about 270 km and usually takes 4.5 to 5.5 hours, depending on traffic and the stops you want to make.</p><p>Choose a Sedan for up to 4 people, an SUV or Innova Crysta for families and extra luggage, or a Tempo Traveller for larger groups. We pick you up from your address in Surat and confirm the full fare before you travel.</p>",
+       "_css_classes": "amb-prose"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "0f0fa74",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-book",
+     "_element_id": "book"
+    },
+    "elements": [
+     {
+      "id": "eb001c1",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "24c488b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "6b73c9a",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book your Surat to Mumbai Airport cab",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "100cc90",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Fill in your trip and send it to us on WhatsApp. We reply with the fare and confirm your car.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "1302899",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_booking]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "8b1bc76",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "fc0f891",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "708619b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Questions",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "11be9bd",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Mumbai Airport: common questions",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "179d668",
+      "elType": "widget",
+      "widgetType": "toggle",
+      "isInner": false,
+      "settings": {
+       "tabs": [
+        {
+         "_id": "6488993",
+         "tab_title": "How far is Mumbai Airport from Surat by road?",
+         "tab_content": "<p>Mumbai Airport is about 270 km from Surat by road. The drive usually takes 4.5 to 5.5 hours, depending on traffic and the stops you want to make.</p>"
+        },
+        {
+         "_id": "388b82f",
+         "tab_title": "Can I book a one-way taxi from Surat to Mumbai Airport?",
+         "tab_content": "<p>Yes. With a one-way booking you pay for the drop only. If you are coming back, a round trip keeps the same car and driver with you.</p>"
+        },
+        {
+         "_id": "0c6f828",
+         "tab_title": "Which cars can I choose for Surat to Mumbai Airport?",
+         "tab_content": "<p>You can pick from Sedan, SUV, Innova Crysta or Tempo Traveller, depending on how many people are travelling and how much luggage you have.</p>"
+        },
+        {
+         "_id": "df06deb",
+         "tab_title": "How do I get the fare for Surat to Mumbai Airport?",
+         "tab_content": "<p>Send us your travel date, pickup time and car choice on WhatsApp or call +91 85113 01423. We confirm the full fare before the trip, and tell you up front what is included.</p>"
+        }
+       ],
+       "faq_schema": "yes",
+       "_css_classes": "amb-faq"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "3ffa4d5",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "79bc36e",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "4b6545b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "b8fddf1",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes from Surat",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "042e623",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_other_routes]"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "surat-to-ahmedabad-taxi",
+  "title": "Surat to Ahmedabad Taxi",
+  "text": "Surat to Ahmedabad taxi: about 265 km, 4 to 5 hours. A straight expressway run for business days, family visits and airport connections.",
+  "route": {
+   "to": "Ahmedabad",
+   "km": 265,
+   "hours": "4 to 5 hours",
+   "blurb": "A straight expressway run for business days, family visits and airport connections."
+  },
+  "seo": {
+   "title": "Surat to Ahmedabad Taxi | One Way & Round Trip Cab | Ambica Travels",
+   "description": "Book a Surat to Ahmedabad taxi with Ambica Travels. About 265 km, 4 to 5 hours. Sedan, SUV, Innova Crysta, Tempo Traveller. One way or round trip. Call or WhatsApp for the fare.",
+   "focus": "surat to ahmedabad taxi"
+  },
+  "elementor": [
+   {
+    "id": "96f3740",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-hero amb-hero-sub"
+    },
+    "elements": [
+     {
+      "id": "5fad517",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p><a href=\"/\">Home</a> / <a href=\"/#routes\">Routes</a> / Surat to Ahmedabad</p>",
+       "_css_classes": "amb-crumbs"
+      },
+      "elements": []
+     },
+     {
+      "id": "86b933b",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Ambica Travels",
+       "header_size": "div",
+       "_css_classes": "amb-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "bbd68b9",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Surat to <em>Ahmedabad</em> Taxi",
+       "header_size": "h1"
+      },
+      "elements": []
+     },
+     {
+      "id": "334a39e",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>A straight expressway run for business days, family visits and airport connections. One way or round trip, with the fare confirmed before you travel.</p>",
+       "_css_classes": "amb-lead"
+      },
+      "elements": []
+     },
+     {
+      "id": "1b04b73",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_buttons]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "b37ca3a",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec-tight"
+    },
+    "elements": [
+     {
+      "id": "c4eb9a4",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_facts]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "8344953",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "07ec309",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "25ebba1",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "7deb3c6",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars for Surat to Ahmedabad",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "86b2904",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Pick a car and we will send you the fare for your date.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "bee092c",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_cars]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "f3afd34",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-about"
+    },
+    "elements": [
+     {
+      "id": "955ee82",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "83fc136",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "About this trip",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "a948626",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Ahmedabad by taxi",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "48523e8",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Ambica Travels runs taxis from Surat to Ahmedabad on any day of the week, one way or as a round trip. The drive is about 265 km and usually takes 4 to 5 hours, depending on traffic and the stops you want to make.</p><p>Choose a Sedan for up to 4 people, an SUV or Innova Crysta for families and extra luggage, or a Tempo Traveller for larger groups. We pick you up from your address in Surat and confirm the full fare before you travel.</p>",
+       "_css_classes": "amb-prose"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "f593506",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-book",
+     "_element_id": "book"
+    },
+    "elements": [
+     {
+      "id": "5e50b79",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "0b853c4",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "dcac3b6",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book your Surat to Ahmedabad cab",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "bd8eabd",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Fill in your trip and send it to us on WhatsApp. We reply with the fare and confirm your car.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "22a9843",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_booking]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "f547582",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "a8d4c0b",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "1c7f91e",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Questions",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "fef88a8",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Ahmedabad: common questions",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "bfba59f",
+      "elType": "widget",
+      "widgetType": "toggle",
+      "isInner": false,
+      "settings": {
+       "tabs": [
+        {
+         "_id": "4e469be",
+         "tab_title": "How far is Ahmedabad from Surat by road?",
+         "tab_content": "<p>Ahmedabad is about 265 km from Surat by road. The drive usually takes 4 to 5 hours, depending on traffic and the stops you want to make.</p>"
+        },
+        {
+         "_id": "026335b",
+         "tab_title": "Can I book a one-way taxi from Surat to Ahmedabad?",
+         "tab_content": "<p>Yes. With a one-way booking you pay for the drop only. If you are coming back, a round trip keeps the same car and driver with you.</p>"
+        },
+        {
+         "_id": "c3cc99b",
+         "tab_title": "Which cars can I choose for Surat to Ahmedabad?",
+         "tab_content": "<p>You can pick from Sedan, SUV, Innova Crysta or Tempo Traveller, depending on how many people are travelling and how much luggage you have.</p>"
+        },
+        {
+         "_id": "d995dac",
+         "tab_title": "How do I get the fare for Surat to Ahmedabad?",
+         "tab_content": "<p>Send us your travel date, pickup time and car choice on WhatsApp or call +91 85113 01423. We confirm the full fare before the trip, and tell you up front what is included.</p>"
+        }
+       ],
+       "faq_schema": "yes",
+       "_css_classes": "amb-faq"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "45bcc11",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "166d9bb",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "94f0c8f",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "a56a83c",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes from Surat",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "1097554",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_other_routes]"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "surat-to-vadodara-taxi",
+  "title": "Surat to Vadodara Taxi",
+  "text": "Surat to Vadodara taxi: about 150 km, 2.5 to 3 hours. An easy same-day trip up NH 48, one way or there and back.",
+  "route": {
+   "to": "Vadodara",
+   "km": 150,
+   "hours": "2.5 to 3 hours",
+   "blurb": "An easy same-day trip up NH 48, one way or there and back."
+  },
+  "seo": {
+   "title": "Surat to Vadodara Taxi | One Way & Round Trip Cab | Ambica Travels",
+   "description": "Book a Surat to Vadodara taxi with Ambica Travels. About 150 km, 2.5 to 3 hours. Sedan, SUV, Innova Crysta, Tempo Traveller. One way or round trip. Call or WhatsApp for the fare.",
+   "focus": "surat to vadodara taxi"
+  },
+  "elementor": [
+   {
+    "id": "1bd1e00",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-hero amb-hero-sub"
+    },
+    "elements": [
+     {
+      "id": "89b106c",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p><a href=\"/\">Home</a> / <a href=\"/#routes\">Routes</a> / Surat to Vadodara</p>",
+       "_css_classes": "amb-crumbs"
+      },
+      "elements": []
+     },
+     {
+      "id": "6a7c880",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Ambica Travels",
+       "header_size": "div",
+       "_css_classes": "amb-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "03eb0aa",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Surat to <em>Vadodara</em> Taxi",
+       "header_size": "h1"
+      },
+      "elements": []
+     },
+     {
+      "id": "c5a56a1",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>An easy same-day trip up NH 48, one way or there and back. One way or round trip, with the fare confirmed before you travel.</p>",
+       "_css_classes": "amb-lead"
+      },
+      "elements": []
+     },
+     {
+      "id": "fa61979",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_buttons]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "4cc763e",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec-tight"
+    },
+    "elements": [
+     {
+      "id": "900b6e6",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_facts]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "dd7893c",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "04ba179",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "44c3f4c",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "3454d8f",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars for Surat to Vadodara",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "aaa262c",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Pick a car and we will send you the fare for your date.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "dc4f187",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_cars]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "3198682",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-about"
+    },
+    "elements": [
+     {
+      "id": "a798c95",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "f2560bc",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "About this trip",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "8c5ab28",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Vadodara by taxi",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "7b433a7",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Ambica Travels runs taxis from Surat to Vadodara on any day of the week, one way or as a round trip. The drive is about 150 km and usually takes 2.5 to 3 hours, depending on traffic and the stops you want to make.</p><p>Choose a Sedan for up to 4 people, an SUV or Innova Crysta for families and extra luggage, or a Tempo Traveller for larger groups. We pick you up from your address in Surat and confirm the full fare before you travel.</p>",
+       "_css_classes": "amb-prose"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "db60766",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-book",
+     "_element_id": "book"
+    },
+    "elements": [
+     {
+      "id": "30b4474",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "de4f348",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "51ce6d4",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book your Surat to Vadodara cab",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "2c5725c",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Fill in your trip and send it to us on WhatsApp. We reply with the fare and confirm your car.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "bc6278d",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_booking]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "314139f",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "a0dbbf8",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "8611846",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Questions",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "5af736a",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Vadodara: common questions",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "5441d5d",
+      "elType": "widget",
+      "widgetType": "toggle",
+      "isInner": false,
+      "settings": {
+       "tabs": [
+        {
+         "_id": "677bb3c",
+         "tab_title": "How far is Vadodara from Surat by road?",
+         "tab_content": "<p>Vadodara is about 150 km from Surat by road. The drive usually takes 2.5 to 3 hours, depending on traffic and the stops you want to make.</p>"
+        },
+        {
+         "_id": "418036b",
+         "tab_title": "Can I book a one-way taxi from Surat to Vadodara?",
+         "tab_content": "<p>Yes. With a one-way booking you pay for the drop only. If you are coming back, a round trip keeps the same car and driver with you.</p>"
+        },
+        {
+         "_id": "40f26c5",
+         "tab_title": "Which cars can I choose for Surat to Vadodara?",
+         "tab_content": "<p>You can pick from Sedan, SUV, Innova Crysta or Tempo Traveller, depending on how many people are travelling and how much luggage you have.</p>"
+        },
+        {
+         "_id": "9eafb1d",
+         "tab_title": "How do I get the fare for Surat to Vadodara?",
+         "tab_content": "<p>Send us your travel date, pickup time and car choice on WhatsApp or call +91 85113 01423. We confirm the full fare before the trip, and tell you up front what is included.</p>"
+        }
+       ],
+       "faq_schema": "yes",
+       "_css_classes": "amb-faq"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "b522598",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "102a66c",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "cc022b8",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "3229a1f",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes from Surat",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "8a28e5c",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_other_routes]"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "surat-to-statue-of-unity-taxi",
+  "title": "Surat to Statue of Unity Taxi",
+  "text": "Surat to Statue of Unity taxi: about 150 km, 3 to 3.5 hours. A day out to Ekta Nagar with the car waiting while you visit.",
+  "route": {
+   "to": "Statue of Unity",
+   "km": 150,
+   "hours": "3 to 3.5 hours",
+   "blurb": "A day out to Ekta Nagar with the car waiting while you visit."
+  },
+  "seo": {
+   "title": "Surat to Statue of Unity Taxi | One Way & Round Trip Cab | Ambica Travels",
+   "description": "Book a Surat to Statue of Unity taxi with Ambica Travels. About 150 km, 3 to 3.5 hours. Sedan, SUV, Innova Crysta, Tempo Traveller. One way or round trip. Call or WhatsApp for the fare.",
+   "focus": "surat to statue of unity taxi"
+  },
+  "elementor": [
+   {
+    "id": "34d3fb8",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-hero amb-hero-sub"
+    },
+    "elements": [
+     {
+      "id": "61e7ca2",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p><a href=\"/\">Home</a> / <a href=\"/#routes\">Routes</a> / Surat to Statue of Unity</p>",
+       "_css_classes": "amb-crumbs"
+      },
+      "elements": []
+     },
+     {
+      "id": "cf435cd",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Ambica Travels",
+       "header_size": "div",
+       "_css_classes": "amb-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "9d53ceb",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Surat to <em>Statue of Unity</em> Taxi",
+       "header_size": "h1"
+      },
+      "elements": []
+     },
+     {
+      "id": "abeb9e9",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>A day out to Ekta Nagar with the car waiting while you visit. One way or round trip, with the fare confirmed before you travel.</p>",
+       "_css_classes": "amb-lead"
+      },
+      "elements": []
+     },
+     {
+      "id": "923106c",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_buttons]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "5db0b3f",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec-tight"
+    },
+    "elements": [
+     {
+      "id": "6ad2def",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_facts]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "fdc6359",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "c0735b1",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "4ffd505",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "d7285fc",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars for Surat to Statue of Unity",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "ab3013a",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Pick a car and we will send you the fare for your date.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "be4abdb",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_cars]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "5109cdd",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-about"
+    },
+    "elements": [
+     {
+      "id": "2bae74b",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "cd267f2",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "About this trip",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "9ea383f",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Statue of Unity by taxi",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "8d2bd45",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Ambica Travels runs taxis from Surat to Statue of Unity on any day of the week, one way or as a round trip. The drive is about 150 km and usually takes 3 to 3.5 hours, depending on traffic and the stops you want to make.</p><p>Choose a Sedan for up to 4 people, an SUV or Innova Crysta for families and extra luggage, or a Tempo Traveller for larger groups. We pick you up from your address in Surat and confirm the full fare before you travel.</p>",
+       "_css_classes": "amb-prose"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "15093be",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-book",
+     "_element_id": "book"
+    },
+    "elements": [
+     {
+      "id": "ae3cd5f",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "5447de9",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "e7e6547",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book your Surat to Statue of Unity cab",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "9def501",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Fill in your trip and send it to us on WhatsApp. We reply with the fare and confirm your car.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "801b99c",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_booking]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "250d728",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "7cae00e",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "dcafc95",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Questions",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "b6d1186",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Statue of Unity: common questions",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "b8c3030",
+      "elType": "widget",
+      "widgetType": "toggle",
+      "isInner": false,
+      "settings": {
+       "tabs": [
+        {
+         "_id": "f4a1a1f",
+         "tab_title": "How far is Statue of Unity from Surat by road?",
+         "tab_content": "<p>Statue of Unity is about 150 km from Surat by road. The drive usually takes 3 to 3.5 hours, depending on traffic and the stops you want to make.</p>"
+        },
+        {
+         "_id": "b370c69",
+         "tab_title": "Can I book a one-way taxi from Surat to Statue of Unity?",
+         "tab_content": "<p>Yes. With a one-way booking you pay for the drop only. If you are coming back, a round trip keeps the same car and driver with you.</p>"
+        },
+        {
+         "_id": "a3bafe0",
+         "tab_title": "Which cars can I choose for Surat to Statue of Unity?",
+         "tab_content": "<p>You can pick from Sedan, SUV, Innova Crysta or Tempo Traveller, depending on how many people are travelling and how much luggage you have.</p>"
+        },
+        {
+         "_id": "175ec1b",
+         "tab_title": "How do I get the fare for Surat to Statue of Unity?",
+         "tab_content": "<p>Send us your travel date, pickup time and car choice on WhatsApp or call +91 85113 01423. We confirm the full fare before the trip, and tell you up front what is included.</p>"
+        }
+       ],
+       "faq_schema": "yes",
+       "_css_classes": "amb-faq"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "c2477c8",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "b637ea8",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "19b5db5",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "ea878a9",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes from Surat",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "68ec254",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_other_routes]"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "surat-to-saputara-taxi",
+  "title": "Surat to Saputara Taxi",
+  "text": "Surat to Saputara taxi: about 165 km, 3.5 to 4 hours. A hill-station getaway with a driver used to the ghat roads.",
+  "route": {
+   "to": "Saputara",
+   "km": 165,
+   "hours": "3.5 to 4 hours",
+   "blurb": "A hill-station getaway with a driver used to the ghat roads."
+  },
+  "seo": {
+   "title": "Surat to Saputara Taxi | One Way & Round Trip Cab | Ambica Travels",
+   "description": "Book a Surat to Saputara taxi with Ambica Travels. About 165 km, 3.5 to 4 hours. Sedan, SUV, Innova Crysta, Tempo Traveller. One way or round trip. Call or WhatsApp for the fare.",
+   "focus": "surat to saputara taxi"
+  },
+  "elementor": [
+   {
+    "id": "70c0152",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-hero amb-hero-sub"
+    },
+    "elements": [
+     {
+      "id": "9112564",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p><a href=\"/\">Home</a> / <a href=\"/#routes\">Routes</a> / Surat to Saputara</p>",
+       "_css_classes": "amb-crumbs"
+      },
+      "elements": []
+     },
+     {
+      "id": "057e957",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Ambica Travels",
+       "header_size": "div",
+       "_css_classes": "amb-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "80e1665",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Surat to <em>Saputara</em> Taxi",
+       "header_size": "h1"
+      },
+      "elements": []
+     },
+     {
+      "id": "3b02f56",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>A hill-station getaway with a driver used to the ghat roads. One way or round trip, with the fare confirmed before you travel.</p>",
+       "_css_classes": "amb-lead"
+      },
+      "elements": []
+     },
+     {
+      "id": "7b87de5",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_buttons]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "f7845ca",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec-tight"
+    },
+    "elements": [
+     {
+      "id": "c6e26e5",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_facts]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "5daeed3",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "8b74d27",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "6c17078",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "47b699b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars for Surat to Saputara",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "71bf2ca",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Pick a car and we will send you the fare for your date.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "e437274",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_cars]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "31717ce",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-about"
+    },
+    "elements": [
+     {
+      "id": "7b4cb44",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "cce2a74",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "About this trip",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "112466c",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Saputara by taxi",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "b0bd55e",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Ambica Travels runs taxis from Surat to Saputara on any day of the week, one way or as a round trip. The drive is about 165 km and usually takes 3.5 to 4 hours, depending on traffic and the stops you want to make.</p><p>Choose a Sedan for up to 4 people, an SUV or Innova Crysta for families and extra luggage, or a Tempo Traveller for larger groups. We pick you up from your address in Surat and confirm the full fare before you travel.</p>",
+       "_css_classes": "amb-prose"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "35d9eec",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-book",
+     "_element_id": "book"
+    },
+    "elements": [
+     {
+      "id": "e6ae1b9",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "322905a",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "d8d9dc8",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book your Surat to Saputara cab",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "58857b9",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Fill in your trip and send it to us on WhatsApp. We reply with the fare and confirm your car.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "b3a1ee1",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_booking]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "2383f1b",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "1e331b9",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "909fb59",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Questions",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "fb33309",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Saputara: common questions",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "78b6ce3",
+      "elType": "widget",
+      "widgetType": "toggle",
+      "isInner": false,
+      "settings": {
+       "tabs": [
+        {
+         "_id": "a5d98ff",
+         "tab_title": "How far is Saputara from Surat by road?",
+         "tab_content": "<p>Saputara is about 165 km from Surat by road. The drive usually takes 3.5 to 4 hours, depending on traffic and the stops you want to make.</p>"
+        },
+        {
+         "_id": "3f63e96",
+         "tab_title": "Can I book a one-way taxi from Surat to Saputara?",
+         "tab_content": "<p>Yes. With a one-way booking you pay for the drop only. If you are coming back, a round trip keeps the same car and driver with you.</p>"
+        },
+        {
+         "_id": "bf88fb1",
+         "tab_title": "Which cars can I choose for Surat to Saputara?",
+         "tab_content": "<p>You can pick from Sedan, SUV, Innova Crysta or Tempo Traveller, depending on how many people are travelling and how much luggage you have.</p>"
+        },
+        {
+         "_id": "9df817b",
+         "tab_title": "How do I get the fare for Surat to Saputara?",
+         "tab_content": "<p>Send us your travel date, pickup time and car choice on WhatsApp or call +91 85113 01423. We confirm the full fare before the trip, and tell you up front what is included.</p>"
+        }
+       ],
+       "faq_schema": "yes",
+       "_css_classes": "amb-faq"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "5a3fc13",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "5f448b9",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "1fc7636",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "341d8a6",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes from Surat",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "1a87280",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_other_routes]"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "surat-to-daman-taxi",
+  "title": "Surat to Daman Taxi",
+  "text": "Surat to Daman taxi: about 120 km, 2 to 2.5 hours. A short coastal run for a weekend or a day by the sea.",
+  "route": {
+   "to": "Daman",
+   "km": 120,
+   "hours": "2 to 2.5 hours",
+   "blurb": "A short coastal run for a weekend or a day by the sea."
+  },
+  "seo": {
+   "title": "Surat to Daman Taxi | One Way & Round Trip Cab | Ambica Travels",
+   "description": "Book a Surat to Daman taxi with Ambica Travels. About 120 km, 2 to 2.5 hours. Sedan, SUV, Innova Crysta, Tempo Traveller. One way or round trip. Call or WhatsApp for the fare.",
+   "focus": "surat to daman taxi"
+  },
+  "elementor": [
+   {
+    "id": "0273e3a",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-hero amb-hero-sub"
+    },
+    "elements": [
+     {
+      "id": "9df9857",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p><a href=\"/\">Home</a> / <a href=\"/#routes\">Routes</a> / Surat to Daman</p>",
+       "_css_classes": "amb-crumbs"
+      },
+      "elements": []
+     },
+     {
+      "id": "94878fc",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Ambica Travels",
+       "header_size": "div",
+       "_css_classes": "amb-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "e2de522",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Surat to <em>Daman</em> Taxi",
+       "header_size": "h1"
+      },
+      "elements": []
+     },
+     {
+      "id": "a9614c8",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>A short coastal run for a weekend or a day by the sea. One way or round trip, with the fare confirmed before you travel.</p>",
+       "_css_classes": "amb-lead"
+      },
+      "elements": []
+     },
+     {
+      "id": "5385894",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_buttons]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "efc2f35",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec-tight"
+    },
+    "elements": [
+     {
+      "id": "d74b874",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_facts]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "0425e49",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "c85dc34",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "d612b6c",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "6ea796c",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars for Surat to Daman",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "52468c6",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Pick a car and we will send you the fare for your date.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "8858060",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_cars]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "273afde",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-about"
+    },
+    "elements": [
+     {
+      "id": "bd5279a",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "6a8fdac",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "About this trip",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "e856230",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Daman by taxi",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "0e835f2",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Ambica Travels runs taxis from Surat to Daman on any day of the week, one way or as a round trip. The drive is about 120 km and usually takes 2 to 2.5 hours, depending on traffic and the stops you want to make.</p><p>Choose a Sedan for up to 4 people, an SUV or Innova Crysta for families and extra luggage, or a Tempo Traveller for larger groups. We pick you up from your address in Surat and confirm the full fare before you travel.</p>",
+       "_css_classes": "amb-prose"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "6f55f6e",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-book",
+     "_element_id": "book"
+    },
+    "elements": [
+     {
+      "id": "f0ee940",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "240984a",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "b900dac",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book your Surat to Daman cab",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "113bb5d",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Fill in your trip and send it to us on WhatsApp. We reply with the fare and confirm your car.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "d4ffad3",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_booking]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "b1ed320",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "f4194d5",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "c1d0a25",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Questions",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "c7ab26f",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Daman: common questions",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "231d04d",
+      "elType": "widget",
+      "widgetType": "toggle",
+      "isInner": false,
+      "settings": {
+       "tabs": [
+        {
+         "_id": "37d73f6",
+         "tab_title": "How far is Daman from Surat by road?",
+         "tab_content": "<p>Daman is about 120 km from Surat by road. The drive usually takes 2 to 2.5 hours, depending on traffic and the stops you want to make.</p>"
+        },
+        {
+         "_id": "349f8be",
+         "tab_title": "Can I book a one-way taxi from Surat to Daman?",
+         "tab_content": "<p>Yes. With a one-way booking you pay for the drop only. If you are coming back, a round trip keeps the same car and driver with you.</p>"
+        },
+        {
+         "_id": "c158f49",
+         "tab_title": "Which cars can I choose for Surat to Daman?",
+         "tab_content": "<p>You can pick from Sedan, SUV, Innova Crysta or Tempo Traveller, depending on how many people are travelling and how much luggage you have.</p>"
+        },
+        {
+         "_id": "2baa9de",
+         "tab_title": "How do I get the fare for Surat to Daman?",
+         "tab_content": "<p>Send us your travel date, pickup time and car choice on WhatsApp or call +91 85113 01423. We confirm the full fare before the trip, and tell you up front what is included.</p>"
+        }
+       ],
+       "faq_schema": "yes",
+       "_css_classes": "amb-faq"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "aeb0639",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "06e82b3",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "5777836",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "68ce542",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes from Surat",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "f98067c",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_other_routes]"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "surat-to-nashik-taxi",
+  "title": "Surat to Nashik Taxi",
+  "text": "Surat to Nashik taxi: about 235 km, 5 to 6 hours. For Trimbakeshwar, Shirdi connections and family trips into Maharashtra.",
+  "route": {
+   "to": "Nashik",
+   "km": 235,
+   "hours": "5 to 6 hours",
+   "blurb": "For Trimbakeshwar, Shirdi connections and family trips into Maharashtra."
+  },
+  "seo": {
+   "title": "Surat to Nashik Taxi | One Way & Round Trip Cab | Ambica Travels",
+   "description": "Book a Surat to Nashik taxi with Ambica Travels. About 235 km, 5 to 6 hours. Sedan, SUV, Innova Crysta, Tempo Traveller. One way or round trip. Call or WhatsApp for the fare.",
+   "focus": "surat to nashik taxi"
+  },
+  "elementor": [
+   {
+    "id": "0698c6d",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-hero amb-hero-sub"
+    },
+    "elements": [
+     {
+      "id": "7c722ef",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p><a href=\"/\">Home</a> / <a href=\"/#routes\">Routes</a> / Surat to Nashik</p>",
+       "_css_classes": "amb-crumbs"
+      },
+      "elements": []
+     },
+     {
+      "id": "549b80c",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Ambica Travels",
+       "header_size": "div",
+       "_css_classes": "amb-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "e3bf3fe",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Surat to <em>Nashik</em> Taxi",
+       "header_size": "h1"
+      },
+      "elements": []
+     },
+     {
+      "id": "e7a74ef",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>For Trimbakeshwar, Shirdi connections and family trips into Maharashtra. One way or round trip, with the fare confirmed before you travel.</p>",
+       "_css_classes": "amb-lead"
+      },
+      "elements": []
+     },
+     {
+      "id": "eb3c49e",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_buttons]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "a99b19b",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec-tight"
+    },
+    "elements": [
+     {
+      "id": "9c720ff",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_facts]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "ecfe256",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "6ce0155",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "b8f8435",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "9247292",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars for Surat to Nashik",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "9642346",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Pick a car and we will send you the fare for your date.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "49f122b",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_cars]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "6dfbb99",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-about"
+    },
+    "elements": [
+     {
+      "id": "854670c",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "6e19d33",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "About this trip",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "7dd45f2",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Nashik by taxi",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "f84cfb2",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Ambica Travels runs taxis from Surat to Nashik on any day of the week, one way or as a round trip. The drive is about 235 km and usually takes 5 to 6 hours, depending on traffic and the stops you want to make.</p><p>Choose a Sedan for up to 4 people, an SUV or Innova Crysta for families and extra luggage, or a Tempo Traveller for larger groups. We pick you up from your address in Surat and confirm the full fare before you travel.</p>",
+       "_css_classes": "amb-prose"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "b1f0120",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-book",
+     "_element_id": "book"
+    },
+    "elements": [
+     {
+      "id": "2ba1289",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "0407b0a",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "8af034e",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book your Surat to Nashik cab",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "8122dc4",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Fill in your trip and send it to us on WhatsApp. We reply with the fare and confirm your car.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "fd50e04",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_booking]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "1ed4cda",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "a5e95fc",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "65b3f55",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Questions",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "0ddb58d",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Nashik: common questions",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "8eddad4",
+      "elType": "widget",
+      "widgetType": "toggle",
+      "isInner": false,
+      "settings": {
+       "tabs": [
+        {
+         "_id": "efa9806",
+         "tab_title": "How far is Nashik from Surat by road?",
+         "tab_content": "<p>Nashik is about 235 km from Surat by road. The drive usually takes 5 to 6 hours, depending on traffic and the stops you want to make.</p>"
+        },
+        {
+         "_id": "94a5fcd",
+         "tab_title": "Can I book a one-way taxi from Surat to Nashik?",
+         "tab_content": "<p>Yes. With a one-way booking you pay for the drop only. If you are coming back, a round trip keeps the same car and driver with you.</p>"
+        },
+        {
+         "_id": "b855723",
+         "tab_title": "Which cars can I choose for Surat to Nashik?",
+         "tab_content": "<p>You can pick from Sedan, SUV, Innova Crysta or Tempo Traveller, depending on how many people are travelling and how much luggage you have.</p>"
+        },
+        {
+         "_id": "c197641",
+         "tab_title": "How do I get the fare for Surat to Nashik?",
+         "tab_content": "<p>Send us your travel date, pickup time and car choice on WhatsApp or call +91 85113 01423. We confirm the full fare before the trip, and tell you up front what is included.</p>"
+        }
+       ],
+       "faq_schema": "yes",
+       "_css_classes": "amb-faq"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "a559aaa",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "08149d1",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "5ef7f79",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "2cf168b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes from Surat",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "b1d9602",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_other_routes]"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "surat-to-rajkot-taxi",
+  "title": "Surat to Rajkot Taxi",
+  "text": "Surat to Rajkot taxi: about 450 km, 8 to 9 hours. A long Saurashtra run made comfortable with planned halts.",
+  "route": {
+   "to": "Rajkot",
+   "km": 450,
+   "hours": "8 to 9 hours",
+   "blurb": "A long Saurashtra run made comfortable with planned halts."
+  },
+  "seo": {
+   "title": "Surat to Rajkot Taxi | One Way & Round Trip Cab | Ambica Travels",
+   "description": "Book a Surat to Rajkot taxi with Ambica Travels. About 450 km, 8 to 9 hours. Sedan, SUV, Innova Crysta, Tempo Traveller. One way or round trip. Call or WhatsApp for the fare.",
+   "focus": "surat to rajkot taxi"
+  },
+  "elementor": [
+   {
+    "id": "fb3e463",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-hero amb-hero-sub"
+    },
+    "elements": [
+     {
+      "id": "994d7d6",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p><a href=\"/\">Home</a> / <a href=\"/#routes\">Routes</a> / Surat to Rajkot</p>",
+       "_css_classes": "amb-crumbs"
+      },
+      "elements": []
+     },
+     {
+      "id": "f10c8ab",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Ambica Travels",
+       "header_size": "div",
+       "_css_classes": "amb-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "cedc641",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Surat to <em>Rajkot</em> Taxi",
+       "header_size": "h1"
+      },
+      "elements": []
+     },
+     {
+      "id": "e2f256b",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>A long Saurashtra run made comfortable with planned halts. One way or round trip, with the fare confirmed before you travel.</p>",
+       "_css_classes": "amb-lead"
+      },
+      "elements": []
+     },
+     {
+      "id": "a3198f8",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_buttons]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "9677c9d",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec-tight"
+    },
+    "elements": [
+     {
+      "id": "4f5c1bd",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_facts]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "c77d187",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "09b0355",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "85b457d",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "c7977ae",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars for Surat to Rajkot",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "ca96c8b",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Pick a car and we will send you the fare for your date.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "34a3e0e",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_cars]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "c3f824a",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-about"
+    },
+    "elements": [
+     {
+      "id": "e352db0",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "a4b22a1",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "About this trip",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "2c007f0",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Rajkot by taxi",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "0d211e3",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Ambica Travels runs taxis from Surat to Rajkot on any day of the week, one way or as a round trip. The drive is about 450 km and usually takes 8 to 9 hours, depending on traffic and the stops you want to make.</p><p>Choose a Sedan for up to 4 people, an SUV or Innova Crysta for families and extra luggage, or a Tempo Traveller for larger groups. We pick you up from your address in Surat and confirm the full fare before you travel.</p>",
+       "_css_classes": "amb-prose"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "52aa7c5",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-book",
+     "_element_id": "book"
+    },
+    "elements": [
+     {
+      "id": "b13c465",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "ab61953",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "b9868bb",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book your Surat to Rajkot cab",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "c55b40a",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Fill in your trip and send it to us on WhatsApp. We reply with the fare and confirm your car.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "f6d1eac",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_booking]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "5b1387e",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "c609256",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "027cff9",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Questions",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "b096060",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Rajkot: common questions",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "7f53cef",
+      "elType": "widget",
+      "widgetType": "toggle",
+      "isInner": false,
+      "settings": {
+       "tabs": [
+        {
+         "_id": "887eacd",
+         "tab_title": "How far is Rajkot from Surat by road?",
+         "tab_content": "<p>Rajkot is about 450 km from Surat by road. The drive usually takes 8 to 9 hours, depending on traffic and the stops you want to make.</p>"
+        },
+        {
+         "_id": "436afbb",
+         "tab_title": "Can I book a one-way taxi from Surat to Rajkot?",
+         "tab_content": "<p>Yes. With a one-way booking you pay for the drop only. If you are coming back, a round trip keeps the same car and driver with you.</p>"
+        },
+        {
+         "_id": "a4d3963",
+         "tab_title": "Which cars can I choose for Surat to Rajkot?",
+         "tab_content": "<p>You can pick from Sedan, SUV, Innova Crysta or Tempo Traveller, depending on how many people are travelling and how much luggage you have.</p>"
+        },
+        {
+         "_id": "d5b4204",
+         "tab_title": "How do I get the fare for Surat to Rajkot?",
+         "tab_content": "<p>Send us your travel date, pickup time and car choice on WhatsApp or call +91 85113 01423. We confirm the full fare before the trip, and tell you up front what is included.</p>"
+        }
+       ],
+       "faq_schema": "yes",
+       "_css_classes": "amb-faq"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "8293e30",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "59ba67d",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "b0eabf1",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "b2481a9",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes from Surat",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "8266bf7",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_other_routes]"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "surat-to-vapi-taxi",
+  "title": "Surat to Vapi Taxi",
+  "text": "Surat to Vapi taxi: about 110 km, 2 hours. Quick industrial-belt transfers for meetings and plant visits.",
+  "route": {
+   "to": "Vapi",
+   "km": 110,
+   "hours": "2 hours",
+   "blurb": "Quick industrial-belt transfers for meetings and plant visits."
+  },
+  "seo": {
+   "title": "Surat to Vapi Taxi | One Way & Round Trip Cab | Ambica Travels",
+   "description": "Book a Surat to Vapi taxi with Ambica Travels. About 110 km, 2 hours. Sedan, SUV, Innova Crysta, Tempo Traveller. One way or round trip. Call or WhatsApp for the fare.",
+   "focus": "surat to vapi taxi"
+  },
+  "elementor": [
+   {
+    "id": "0663596",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-hero amb-hero-sub"
+    },
+    "elements": [
+     {
+      "id": "9d77b84",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p><a href=\"/\">Home</a> / <a href=\"/#routes\">Routes</a> / Surat to Vapi</p>",
+       "_css_classes": "amb-crumbs"
+      },
+      "elements": []
+     },
+     {
+      "id": "64e258f",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Ambica Travels",
+       "header_size": "div",
+       "_css_classes": "amb-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "230767b",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Surat to <em>Vapi</em> Taxi",
+       "header_size": "h1"
+      },
+      "elements": []
+     },
+     {
+      "id": "6e6e070",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Quick industrial-belt transfers for meetings and plant visits. One way or round trip, with the fare confirmed before you travel.</p>",
+       "_css_classes": "amb-lead"
+      },
+      "elements": []
+     },
+     {
+      "id": "b5a597d",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_buttons]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "24171a1",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec-tight"
+    },
+    "elements": [
+     {
+      "id": "5a3e3cb",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_facts]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "774d282",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "a2138f2",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "d6650d8",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "c54faff",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars for Surat to Vapi",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "683e0bf",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Pick a car and we will send you the fare for your date.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "f1253e2",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_cars]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "89327f4",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-about"
+    },
+    "elements": [
+     {
+      "id": "a99f3af",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "c3d6f21",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "About this trip",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "9cc1bfb",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Vapi by taxi",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "5d98667",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Ambica Travels runs taxis from Surat to Vapi on any day of the week, one way or as a round trip. The drive is about 110 km and usually takes 2 hours, depending on traffic and the stops you want to make.</p><p>Choose a Sedan for up to 4 people, an SUV or Innova Crysta for families and extra luggage, or a Tempo Traveller for larger groups. We pick you up from your address in Surat and confirm the full fare before you travel.</p>",
+       "_css_classes": "amb-prose"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "f934d90",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-book",
+     "_element_id": "book"
+    },
+    "elements": [
+     {
+      "id": "4428c02",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "fac0923",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "10f32a5",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book your Surat to Vapi cab",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "757b031",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Fill in your trip and send it to us on WhatsApp. We reply with the fare and confirm your car.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "76469cf",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_booking]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "3804606",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "92e0f68",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "e1a52f1",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Questions",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "25b847e",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Vapi: common questions",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "457e49b",
+      "elType": "widget",
+      "widgetType": "toggle",
+      "isInner": false,
+      "settings": {
+       "tabs": [
+        {
+         "_id": "0fd3b75",
+         "tab_title": "How far is Vapi from Surat by road?",
+         "tab_content": "<p>Vapi is about 110 km from Surat by road. The drive usually takes 2 hours, depending on traffic and the stops you want to make.</p>"
+        },
+        {
+         "_id": "c1bf40b",
+         "tab_title": "Can I book a one-way taxi from Surat to Vapi?",
+         "tab_content": "<p>Yes. With a one-way booking you pay for the drop only. If you are coming back, a round trip keeps the same car and driver with you.</p>"
+        },
+        {
+         "_id": "523eecc",
+         "tab_title": "Which cars can I choose for Surat to Vapi?",
+         "tab_content": "<p>You can pick from Sedan, SUV, Innova Crysta or Tempo Traveller, depending on how many people are travelling and how much luggage you have.</p>"
+        },
+        {
+         "_id": "36de5f0",
+         "tab_title": "How do I get the fare for Surat to Vapi?",
+         "tab_content": "<p>Send us your travel date, pickup time and car choice on WhatsApp or call +91 85113 01423. We confirm the full fare before the trip, and tell you up front what is included.</p>"
+        }
+       ],
+       "faq_schema": "yes",
+       "_css_classes": "amb-faq"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "c05b054",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "10da82e",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "e0aa98b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "d7a0ba8",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes from Surat",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "3c80be7",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_other_routes]"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "surat-to-bharuch-taxi",
+  "title": "Surat to Bharuch Taxi",
+  "text": "Surat to Bharuch taxi: about 70 km, 1.5 hours. Short hops to Bharuch, Ankleshwar and Dahej.",
+  "route": {
+   "to": "Bharuch",
+   "km": 70,
+   "hours": "1.5 hours",
+   "blurb": "Short hops to Bharuch, Ankleshwar and Dahej."
+  },
+  "seo": {
+   "title": "Surat to Bharuch Taxi | One Way & Round Trip Cab | Ambica Travels",
+   "description": "Book a Surat to Bharuch taxi with Ambica Travels. About 70 km, 1.5 hours. Sedan, SUV, Innova Crysta, Tempo Traveller. One way or round trip. Call or WhatsApp for the fare.",
+   "focus": "surat to bharuch taxi"
+  },
+  "elementor": [
+   {
+    "id": "6361bc3",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-hero amb-hero-sub"
+    },
+    "elements": [
+     {
+      "id": "07b2271",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p><a href=\"/\">Home</a> / <a href=\"/#routes\">Routes</a> / Surat to Bharuch</p>",
+       "_css_classes": "amb-crumbs"
+      },
+      "elements": []
+     },
+     {
+      "id": "e952ec5",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Ambica Travels",
+       "header_size": "div",
+       "_css_classes": "amb-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "78f7ba9",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Surat to <em>Bharuch</em> Taxi",
+       "header_size": "h1"
+      },
+      "elements": []
+     },
+     {
+      "id": "571d0d9",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Short hops to Bharuch, Ankleshwar and Dahej. One way or round trip, with the fare confirmed before you travel.</p>",
+       "_css_classes": "amb-lead"
+      },
+      "elements": []
+     },
+     {
+      "id": "ec44ec4",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_buttons]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "eff4a15",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec-tight"
+    },
+    "elements": [
+     {
+      "id": "23cc2a0",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_facts]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "1e9ed9e",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "b6366ae",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "983f339",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "d818977",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Cars for Surat to Bharuch",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "5d18bbc",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Pick a car and we will send you the fare for your date.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "2cf58a3",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_route_cars]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "e9d6ffe",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-about"
+    },
+    "elements": [
+     {
+      "id": "7dcfe21",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "335111d",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "About this trip",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "bd0e6b0",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Bharuch by taxi",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "a1f968f",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Ambica Travels runs taxis from Surat to Bharuch on any day of the week, one way or as a round trip. The drive is about 70 km and usually takes 1.5 hours, depending on traffic and the stops you want to make.</p><p>Choose a Sedan for up to 4 people, an SUV or Innova Crysta for families and extra luggage, or a Tempo Traveller for larger groups. We pick you up from your address in Surat and confirm the full fare before you travel.</p>",
+       "_css_classes": "amb-prose"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "2901fee",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec amb-book",
+     "_element_id": "book"
+    },
+    "elements": [
+     {
+      "id": "1389dc6",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "9e952e1",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "9b10696",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Book your Surat to Bharuch cab",
+         "header_size": "h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "6f8ff38",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Fill in your trip and send it to us on WhatsApp. We reply with the fare and confirm your car.</p>"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "5f3e493",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_booking]"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "a52f440",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "55812be",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "d1d73fa",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Questions",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "ae8760b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Surat to Bharuch: common questions",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "2cebf68",
+      "elType": "widget",
+      "widgetType": "toggle",
+      "isInner": false,
+      "settings": {
+       "tabs": [
+        {
+         "_id": "6ee3a87",
+         "tab_title": "How far is Bharuch from Surat by road?",
+         "tab_content": "<p>Bharuch is about 70 km from Surat by road. The drive usually takes 1.5 hours, depending on traffic and the stops you want to make.</p>"
+        },
+        {
+         "_id": "fcf3879",
+         "tab_title": "Can I book a one-way taxi from Surat to Bharuch?",
+         "tab_content": "<p>Yes. With a one-way booking you pay for the drop only. If you are coming back, a round trip keeps the same car and driver with you.</p>"
+        },
+        {
+         "_id": "c6be542",
+         "tab_title": "Which cars can I choose for Surat to Bharuch?",
+         "tab_content": "<p>You can pick from Sedan, SUV, Innova Crysta or Tempo Traveller, depending on how many people are travelling and how much luggage you have.</p>"
+        },
+        {
+         "_id": "1f616d2",
+         "tab_title": "How do I get the fare for Surat to Bharuch?",
+         "tab_content": "<p>Send us your travel date, pickup time and car choice on WhatsApp or call +91 85113 01423. We confirm the full fare before the trip, and tell you up front what is included.</p>"
+        }
+       ],
+       "faq_schema": "yes",
+       "_css_classes": "amb-faq"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "3f18949",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "column",
+     "css_classes": "amb-sec"
+    },
+    "elements": [
+     {
+      "id": "1db23c4",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "column",
+       "css_classes": "amb-title"
+      },
+      "elements": [
+       {
+        "id": "7d70181",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes",
+         "header_size": "div",
+         "_css_classes": "amb-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "d6e0369",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "More routes from Surat",
+         "header_size": "h2"
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "d05b16b",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+       "shortcode": "[ambica_other_routes]"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ }
+]
