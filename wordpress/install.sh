@@ -161,7 +161,7 @@ for f in sedan suv innova-crysta tempo-traveller; do
   [ "$existing" = "0" ] && existing=""
   if [ -z "$existing" ]; then
     cp "$src" "$WP_DIR/tmp/$f.jpg"; chown "$WP_USER" "$WP_DIR/tmp/$f.jpg"
-    existing=$(sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" media import "$WP_DIR/tmp/$f.jpg" --title="$f taxi" --porcelain)
+    existing=$(sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" media import "$WP_DIR/tmp/$f.jpg" --title="$f taxi" --porcelain 2>/dev/null | tail -1)
     rm -f "$WP_DIR/tmp/$f.jpg"
   fi
   IMG_JSON="$IMG_JSON\"$f\":$existing,"
@@ -171,10 +171,10 @@ $WP option update ambica_car_images "$IMG_JSON" --format=json
 ICON_NOW=$(sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" eval 'echo (int) get_option( "site_icon" );' 2>/dev/null | tail -1 || true)
 if [ -z "$ICON_NOW" ] || [ "$ICON_NOW" = "0" ]; then
   cp "$DOC/wp-content/plugins/ambica-site/assets/icon-512.png" "$WP_DIR/tmp/"; chown "$WP_USER" "$WP_DIR/tmp/icon-512.png"
-  ICON=$(sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" media import "$WP_DIR/tmp/icon-512.png" --title="Site icon" --porcelain)
+  ICON=$(sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" media import "$WP_DIR/tmp/icon-512.png" --title="Site icon" --porcelain 2>/dev/null | tail -1)
   $WP option update site_icon "$ICON"; rm -f "$WP_DIR/tmp/icon-512.png"
   cp "$DOC/wp-content/plugins/ambica-site/assets/og.jpg" "$WP_DIR/tmp/"; chown "$WP_USER" "$WP_DIR/tmp/og.jpg"
-  OG=$(sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" media import "$WP_DIR/tmp/og.jpg" --title="Ambica Travels share image" --porcelain)
+  OG=$(sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" media import "$WP_DIR/tmp/og.jpg" --title="Ambica Travels share image" --porcelain 2>/dev/null | tail -1)
   $WP option patch update rank-math-options-titles open_graph_image_id "$OG" >/dev/null 2>&1 || true
   $WP option patch update rank-math-options-titles open_graph_image "$(sudo -u "$WP_USER" -H -- /usr/local/bin/wp --path="$DOC" post get "$OG" --field=guid)" >/dev/null 2>&1 || true
   rm -f "$WP_DIR/tmp/og.jpg"
