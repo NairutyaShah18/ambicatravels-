@@ -17,6 +17,7 @@ SECRETS="/root/ambica-wp-login.txt"
 WP="sudo -u $WP_USER -H -- /usr/local/bin/wp --path=$DOC --quiet"
 
 say(){ echo; echo "==> $*"; }
+cd /tmp   # commands run as the site user need a folder they can enter
 free -h | head -2
 
 say "Packages: PHP and MariaDB"
@@ -112,7 +113,7 @@ $WP option update default_comment_status closed
 $WP option update default_ping_status closed
 $WP option update users_can_register 0
 $WP option update blog_public 0          # hidden from Google until go-live
-$WP rewrite structure '/%postname%/' --hard
+$WP rewrite structure '/%postname%/'
 
 say "Theme and plugins (all free)"
 $WP theme install hello-elementor --activate
